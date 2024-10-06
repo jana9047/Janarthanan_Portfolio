@@ -918,21 +918,18 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
   flex-wrap: wrap; /* Allows wrapping on smaller screens */
   justify-content: space-between;
 }
-
-.mapArea {
-  width: 48%; /* Default for desktop: two maps side by side */
-  margin-bottom: 20px;
+.mapArea{
+	height:462px;
+	overflow:hidden;
+	width:100%;
+	margin:0;
+	background:#3b323c;
 }
-
-.mapArea iframe {
-  width: 50%; /* Full width of the container */
-  height: 100%; /* Full height of the container */
+.mapArea iframe{
+	width:100%;
+	height:100%;
 }
-@media screen and (max-width: 768px) {
-  .mapArea {
-    width: 100%; /* On smaller screens, each map takes full width */
-  }
-}
+#map img { max-width: none; }
 
 #map img {
   max-width: none; /* Prevent image scaling */
