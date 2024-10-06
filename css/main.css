@@ -914,26 +914,24 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
   padding-bottom: 0;
 }
 .map-container {
-  display: flex; /* Use flexbox for horizontal layout */
-  justify-content: center; /* Center the maps horizontally */
-  align-items: flex-start; /* Align items to the top */
-  height: auto; /* Adjust height automatically based on content */
-  padding: 20px; /* Add padding around the map container */
-  gap: 20px; /* Add space between the two maps */
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  justify-content: space-between;
 }
 
 .mapArea {
-  height: 462px; /* Fixed height for the maps */
-  overflow: hidden; /* Hide overflow content */
-  width: 45%; /* Width of each map */
-  /*background: #3b323c;  Background color for the map area */
-  border-radius: 8px; /* Optional: add rounded corners */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+  width: 48%; /* Default for desktop: two maps side by side */
+  margin-bottom: 20px;
 }
 
 .mapArea iframe {
   width: 50%; /* Full width of the container */
   height: 100%; /* Full height of the container */
+}
+@media screen and (max-width: 768px) {
+  .mapArea {
+    width: 100%; /* On smaller screens, each map takes full width */
+  }
 }
 
 #map img {
