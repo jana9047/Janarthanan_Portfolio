@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Details</title>
+
+    <link rel="stylesheet" type="text/css" href="\Projects\Student_details_source\project1.css">
+    <link rel="stylesheet" href="\Projects\Student_details_source\css\bootstrap.min.css.map">
+    <script
+      src="https://kit.fontawesome.com/ce9ecde751.js"
+      crossorigin="anonymous"
+    ></script>
+   
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+        .error-border {
+            border:2px solid red;
+        }
+        .success {
+            border: 2px solid green;
+        
+        }
+        .error{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <script src="\Projects\Student_details_source\js\jquery.min.js"></script>
+    <script src="\Projects\Student_details_source\js\bootstrap.min.js"></script>
+
+
+
+<script src="\Projects\Student_details_source\project1.js"></script>
+<div class="video-container">
+    <video class="video" autoplay muted loop>
+        <source src="\Projects\Student_details_source\video\K S R Educational Institutions.mkv" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<div class="content">
+  <div class="row">
+      <div class="col-12 pic">
+                  <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="https://ksrct.ac.in/" target="_blank"><img src="https://www.ksrctdigipro.in/media/images/KSRCT%20Logo.png" alt="" class="img-fluid pa d-inline-block align-text-top" id="logo" width="60" height="60"></a>
+            <a class="navbar-brand" href="https://ksrct.ac.in/" target="_blank">
+              <img src="\Projects\Student_details_source\video\KSRCT Logo_Colour.webp" width="300"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="https://m.facebook.com/ksrct1994?eav=AfbJBYYvLSt3Y6c81qSraG1zYW7ZM1geO-LrHetORSsburN6rPE4btArsuCVkloSdus&paipv=0" target="_blank"><i class="fa-brands fa-facebook fa-xl mar text-primary"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://web.whatsapp.com/send/?phone=%2B919445588688&data_filter_required=ARBEQmxRxrHBbv7QI9_qKuy3afiHFNsFoDpVChukXTboeigV5A0DjNz2fGy9orBHcdLX8fTAOYDlVMI-xv8SB0k0S90lP-e6Oh7eGY4Jhcc55HLLQWxArq-7lFU4XJ61Rl9ckPWQAXDo-NfL9OknAtM1mg&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR2EqRN6q9-JhCTw5mJm5YgyQvEkRzIs4SKOMDXhazI2pGzOnOMshT3OK54" target="_blank"><i class="fa-brands fa-whatsapp fa-xl text-success"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.instagram.com/ksrct1994/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i class="fa-brands fa-instagram fa-xl inst"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://in.linkedin.com/school/ksrct1994/?trk=public_post_feed-actor-name" target="_blank"><i class="fa-brands fa-linkedin fa-xl text-primary"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://x.com/ksrct1994?s=20" target="_blank"><i class="fa-brands fa-x-twitter fa-xl text-dark"></i></a>
+                </li>
+                
+                    </li>
+                             
+          </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+          <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="card mt text-dark font-weight-bold" style="background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 20px;
+        border: 1px solid rgba(219, 28, 28, 0.18);
+        box-shadow: 8px 8px 32px 0 rgba(0, 0, 0, 0.37);">
+          <div class="card-header" >
+            <h3 class="text-primary text-center">Fill Your Details</h3>
+          </div>
+          <div class="card-body ">
+            <form class="form" id="myForm" action="/" method="POST">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <div class="input-group">
+                      <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-user fa-lg"></i></span>
+                      <input
+                      type="text"
+                      name="fname"
+                      id="fname"
+                      class="form-control"
+                      placeholder="First Name"
+                    aria-label="Username" aria-describedby="basic-addon1">
+                    <input
+                      type="text"
+                      name="lname"
+                      id="lname"
+                      class="form-control"
+                      placeholder="Last Name"
+                    
+                    aria-label="Username" aria-describedby="basic-addon1">
+                    <input
+                      type="text"
+                      name="initial"
+                      id="initial"
+                      class="form-control"
+                      placeholder="Initial"
+                    
+                    aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                    <span><small class="error1 text-danger"></small></span>
+                  
+                    <span><small class="error2 text-danger"></small></span>
+                    
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label for="number1">Register Number</label>
+                    <div class="input-group">
+                      <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA3UlEQVR4nO3ULU5DQRiF4QcHFQhckZVFwTbAdgdA0uAIKAQkIHEFwRaqaNfAFvjbAUGgIQSGTDIKbnM7Q28xnOR133kz3yQz/EFW0MkgztdmFSN8ImTwgWu0J4kXcZsp/c4DlqrkB78Uh8R+lXw4I/mwSj6eoviO15qZcan8CBezlt9gAwtNyN/wgtMm5CFx/i8P876WJzw3JQ9TMH/5CCdp9RJp7B0nz49cYhstbGE3g83U28GgSh6f9x2WlSX27rE+aWAPj+lv72VwmHr9uhOs4QxXGcT5buHGZfkC/AovzV8G7HgAAAAASUVORK5CYII="></span>
+                    <input
+                      type="number"
+                      class="form-control"
+                      name="number"
+                      id="number"
+                      placeholder="Eg : 73772113146"
+                      
+                    />
+                  </div>
+                  <small class="error3 error text-danger"></small>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label for="college">College</label>
+                    <div class="input-group">
+                      <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-graduation-cap fa-lg"></i></span>
+                    <select class="form-select" aria-label="Default select example" id="college1" name="college">
+                      <option value="">Select Your College</option>
+                      <option value="KSRCT">KSRCT</option>
+                      <option value="KSRIET">KSRIET</option>
+                      <option value="KSRCE">KSRCE</option>
+                    </select>
+                    
+                  </div>
+                  <small class="error error4 text-danger"></small>
+                </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form-group">
+                   <label for="degree">Degree</label>
+                   <div class="input-group">
+                    <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABMUlEQVR4nM3UPS8EURTG8R+9l0KQCCEqnZJC4RtQ0BG9QiFoRePtEyj0fAYtDaIgmxDRaTRLJ/EScpMjWZvZ7MyswpOczL3neeafyZ3cwz/QKHZQxRQ6/gLajj184CtqHifYQlsr8L0a6E8t4yrWm2XBw3jPgCfgfaxfMVAGvpwBzqqlMvD9nPDdouB5POeEVyOfWws4KFApX0irmGuSmYtcYd1hukkm+bdl4Mc4bJJJ/lEZeB9eMNHAnww/5UppDdforOt34absedfOlgpOa76wH2fRT35LusYFHuPCpOd59FtSD54wjtkYuzOxfwq/kEawEmP1LW7hYF1mKPqfuIxhNtYI2I3tOMevjFpEb2R7Y5+VqwSnux7+mWOOfOTM/IInbcRte2ih0vvrRf/D/9M3hoqMfmz5RKYAAAAASUVORK5CYII="></span>
+                   <select class="form-select" aria-label="Default select example" id="degree1" name="degree">
+                      <option value="">Select Your Degree</option>
+                      <option value="B.E">B.E</option>
+                      <option value="B.TECH">B.TECH</option>
+                      
+                    </select>
+                  </div>
+                  <small class="error error5 text-danger"></small>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label for="deaprtment">Your Department</label>
+                    <div class="input-group">
+                      <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABcElEQVR4nK2VTU4CQRCFPyOJS3/iHYQLiG7U47iThTJuBQ4AHkfwDzmDbAS8B+NgilQnnUr3TIu8pDPpqarX3a+rqiEdB8AhsM+WcQWsvNHcJvmNIb/elKgNLIBLndeBkSEfAg21X6j/XQrxSkcOTIDCELtRqD33/kl8FNMIUeqQ+CjOgGUg6AvoAxkwAGYBH4k7r5JmbKS5BXaNT00l8CWRuFI0jMZCnHpHhV5+MI9bwLORwu14D+gC70BH5+4Ecy9mpGkrfGscRS6n7y3eMzZZyGEQiRdejiPGzCN4M7ZXz5ZF4oV33S+qdt41NpHG4TESL7xrNLWkh55xppo6zTt6gocSzYfKE+w9dZMtpRUH3JtsOanwZ2LyvO2dwKGmxH6ef1QRS7P6Ceg3V20z/S4CPrk2sSB2gO9/9hZZNKnillrSZV1xbHpRUtudahNzl/xiiJ+8Uhe/zxTiGFqGfOOXKAT7hp5uk1wgr/6fXv9fl//cFwlIaM8AAAAASUVORK5CYII="></span>
+                      <select class="form-select" aria-label="Default select example" id="dep1" name="department">
+                        <option value="">SELECT YOUR DEPARTMENT</option>
+                        <option value="ELECTRONICS AND COMMUNICATION ENGINEERING">ELECTRONICS AND COMMUNICATION ENGINEERING</option>
+                        <option value="COMPUTER SCIENCE ENGINEERING">COMPUTER SCIENCE ENGINEERING</option>
+                        <option value="INFORMATION TECHNOLOGY">INFORMATION TECHNOLOGY</option>
+                        <option value="MECHANICAL ENGINEERING">MECHANICAL ENGINEERING</option>
+                        <option value="ELECRTRICAL AND ELECTRONICS ENGINEERING">ELECRTRICAL AND ELECTRONICS ENGINEERING</option>
+                        <option value="CIVIL ENGINEERING">CIVIL ENGINEERING</option>
+                        <option value="BIOTECHNOLOGY">BIOTECHNOLOGY</option>
+                        <option value="TEXTILE TECHNOLOGY">TEXTILE TECHNOLOGY</option>
+                        <option value="FOOD TECHNOLOGY">FOOD TECHNOLOGY</option>
+                        <option value="MECHATRONICS">MECHATRONICS</option>
+                        <option value="COMPUTER SCIENCE AND BUISNESS SYSTEM">COMPUTER SCIENCE AND BUISNESS SYSTEM</option>
+                        <option value="ARTIFICIAL INTELLIGENCE AND DATA SCIENCE">ARTIFICIAL INTELLIGENCE AND DATA SCIENCE</option>
+                    </select>
+                    
+                  </div>
+                  <small class="error error6"></small></div>
+                </div>
+               <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="birth">Date of Birth</label>
+                  <div class="input-group"> <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-calendar-days fa-lg"></i></span>
+                  <input type="date" name="birth" class="form-control" id="dateofbirth">
+                </div>
+                <small class="error error7"></small>
+                </div>
+                </div>
+                <div class="col-lg-6">
+                  
+                  <label for="gender" class="gen"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABrElEQVR4nO2VzStEURiHH0yahZWirFjxB1jY2CjZKGJhw0ayoVhJkYWNRjFYiCklipQUFiyI/UhZYGNDGZFvytfC1dF7x+nMuWdm9n71ds69Pfc3c8/7ceFPpcAW8ALEgSrcygEGgQRwBQwDuUHwAeBpcQsUOszbDV5Flw0ssYAeUO8wX7Pw2zYwDHxY4EqH+bSFnw+C+4BvDVzGrTLgRuPvgHLXA9VAP9AoCUunYjnnbjnaFKkq2QO+LK/5BESNKlA/OhnAX8gfTGonIJmeFh0a35SGPQdCPmxLpGfEgma+ngFf68Pq4gE4s0BxWVeELQDeJO4t/KWsM7r5KbBpgUcN8xa5XtSM9IgAn8A1kJet+Ypx34xDaSTPT2ym5mGZO89AzHHeI7JOZGNeozVXwmE+JmV6ko15kbR3Z5pKOZKm6lXmx8CqZr4PvMu+RxppSCvFqQxKMTkGQtJ1vnlMDNW+Dcg3OjqSxvgVqDDHQJB5kHaFiWqjoDkI/je3akPObRZ4lH2rHf2VP03HpeXVXk1Mq1Rdqu5rAObkA52SdU0Dkvg6YEnmifo6JfUDQs8jDceG0l4AAAAASUVORK5CYII="> Gender </label>
+                  <div class="form-group font-weight-normal">
+                    <div class="form-check " >
+                      
+                      <input class="form-check-input myRadio" type="radio" name="gender" id="male" value="Male" >
+                      <label class="form-check-label" for="male">
+                        Male
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input myRadio" type="radio" name="gender" id="female" value="Female" >
+                      <label class="form-check-label" for="female">
+                        Female
+                      </label>
+                    </div>
+                    <small class="error error8"></small>
+                  </div>
+                </div>
+                  <div class="col-lg-6"></div>
+                  <h1 class="font-weight-bold mt-5 mb-4">10th Details</h1>
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label for="10thper">Percentage</label>
+
+                    <div class="input-group">
+                      <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABMUlEQVR4nO2Uv0rDUBSHvy4dFAQdjE7d+gima96l2BdQsZODIHkIu4iCky9iN60+QDf/bN1arVz4AkESyZWM/SCQnHPu756cc+6FDZFsAwe0zA5wB6yANfAKpDWxF0AvRvxW0Tfg2fd3IPkVN9T3BHSalmKl8K62iSLHpbg+sAC+gKxp1ocKhYwLzrSd+90FptpyInlx4UThT+AbONKf6390oyhSa7z2CcKX+jJLsbA0/2LfGo9LGe8BczcMzWyVe4Uf2hYeKjz3DwID/2xUMaaN6VeM3ZW9KPry8cdBq6XrVJTHbqBwEDwFrvXPYsVzF05LYzfWdlKKm2kL56QRWc3YjRQKGWMPwuguga0mwh3vjKqxSyxJUYriTNwQQc9br4q0dJKXCofbtFWSpqXYQMEPizJXWHo62VkAAAAASUVORK5CYII="></span>
+                    <input type="number" name="10thpercentage" id="10thper1" class="form-control" placeholder="Eg : 85">
+                  </div>
+                  
+                  <small class="error error9"></small> 
+                  </div>
+                  
+                </div>
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label for="10thyear">Year</label>
+                    <div class="input-group">
+                      <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABaUlEQVR4nN2VsUrDUBSGP7BCZ30BoaCbm2+gi+gTdKyKk3QQ666CODiLq5NdVFAzKOog4lBwEUQqitkcdFJUsEYu/CnHkDRaQwcP/OQm5z9fkpN7byA5hoBhoJCQLyjvfL+KPiCQ6gmeuvE4/49jwBT6CR7feJy/ZfQCC8AmUDSF90AJqBqVdD30FFXn6nvi4MfG7AEVaRa4MzmnW10PPZ7JHUXB3UAjAgjaVEO8ZuQzAgdSvmPwnOlfJQPl/kdb8p2A143hGrg0C8fO9ZvIvK5G1kksfA04Aw6ADaAM1KQn8wCDBjSt/Baw3gr+AUwAk8AnMBfzyovAKnCu84qOL8BSWs+rwL7G7kZTUk03nAGeDXQcGAXmgYc0+C5wonH0yU+BMYFHgHd5lpUL/gIvA48aHwLb8oRv5KfBr7TrhS0KV90FsBPZoDzTQteqvY7P8y7gLSPwq3jfYiUjuPu4sdGvP3q7cvXN+AIE3Ud4Z/YS/AAAAABJRU5ErkJggg=="></span>
+                    <input type="number" name="10thyear" id="10thyear1" class="form-control" placeholder="Eg : 2019"></div>
+                    <small class="error error10"></small>
+                  </div>
+                </div>
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="10thboard">Board</label>
+                  <div class="form-group font-weight-normal">
+                    <div class="form-check ">
+                      <input class="form-check-input board" type="radio" name="10board" value="STATEBOARD" id="board11">
+                      <label class="form-check-label" for="board11">
+                        STATEBOARD
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input board" type="radio" name="10board" value="CBSE" id="board12">
+                      <label class="form-check-label" for="board12">
+                        CBSE
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input board" type="radio" name="10board" value="MATRICULATION" id="board13">
+                      <label class="form-check-label" for="board13">
+                        MATRICULATION
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input board" type="radio" name="10board" id="board" value="OTHERS">
+                      <label class="form-check-label" for="board">
+                        OTHERS
+                      </label>
+                    </div>
+                       <input type="text" name="10thothers" id="boardothers" class="form-control" placeholder="Enter Your Board"  style="display: none;">
+                        <small class="error error11"></small>
+                        <small class="error error-1"></small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="10thschool">School With Address</label>
+                  <div class="input-group">
+                    <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABMklEQVR4nO2UwUoCURSGP0kX9Qi+gSsFQaRFq1IXRSvBhbSpoH3gG7jtEWptS+sd6gFqrZuWiqAgrSYu/AOHi3cc7bbrh8Md5vznmzln5l7YTSXgBDgFGkCBiLoFEhPHMeFHwCXQBdrAQSxwB/jQGlUtYK1RfAMXfwFOYj6g44GX5nq964gOgXN9sB6wEmgCVOWpAVPdX8nXVZ2rD+rVaz+NvufrB3wvWfCZeaOFKXKbxurM5BamQ1cf1FymK6BsACOzG936bHJl+RPVb4WPgKHX8hvwALx794fy54Yne0Yu+B1QyQmsyP+rsXwCT1qjjmUMFOUp6pfbeyz3QNMUuSPAqmVyTflzwx+BgQHUPV/d5Abyb4V/BdrNgttw9UHdyDD3Ij1XUlU3eFzddRb8Xzj9ACvDtOlZH5VgAAAAAElFTkSuQmCC"></span>
+                  <input type="text" name="10thschool" id="10thschool1" class="form-control" placeholder="Eg : YYY MATRICULATION HIGHER SECONDARY SCHOOL">
+                  </div>
+                  <small class="error error12"></small>
+                </div>
+              </div>
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label for="mediumof">Medium of Instruction</label>
+                    <div class="form-check font-weight-normal">
+                      <input class="form-check-input medium" type="radio" name="10medium" value="ENGLISH" id="Eng">
+                      <label class="form-check-label" for="Eng">
+                        ENGLISH
+                      </label>
+                    </div>
+                    <div class="form-check font-weight-normal">
+                      <input class="form-check-input medium" type="radio" name="10medium" value="TAMIL" id="tam">
+                      <label class="form-check-label" for="tam">
+                        TAMIL
+                      </label>
+                    </div>
+                    <div class="form-check font-weight-normal">
+                      <input class="form-check-input medium" type="radio" name="10medium" id="medium" value="OTHERS" >
+                      <label class="form-check-label" for="medium">
+                        OTHERS
+                      </label>
+                    </div>
+                    
+                     
+                    <input type="tel" name="10mediumothers" id="others1" class="form-control" placeholder="Enter Your Medium" style="display: none;">
+                  
+                    <small class="error error13"></small>
+                </div>
+              </div>
+                <div class="col-12">
+                  <h1 class="font-weight-bold mt-5 mb-4">12th Details</h1>
+                </div>
+              <div class="col-lg-6">
+                
+                <div class="form-group">
+                  <label for="10thper">Percentage</label>
+                  <div class="input-group">
+                    <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABMUlEQVR4nO2Uv0rDUBSHvy4dFAQdjE7d+gima96l2BdQsZODIHkIu4iCky9iN60+QDf/bN1arVz4AkESyZWM/SCQnHPu756cc+6FDZFsAwe0zA5wB6yANfAKpDWxF0AvRvxW0Tfg2fd3IPkVN9T3BHSalmKl8K62iSLHpbg+sAC+gKxp1ocKhYwLzrSd+90FptpyInlx4UThT+AbONKf6390oyhSa7z2CcKX+jJLsbA0/2LfGo9LGe8BczcMzWyVe4Uf2hYeKjz3DwID/2xUMaaN6VeM3ZW9KPry8cdBq6XrVJTHbqBwEDwFrvXPYsVzF05LYzfWdlKKm2kL56QRWc3YjRQKGWMPwuguga0mwh3vjKqxSyxJUYriTNwQQc9br4q0dJKXCofbtFWSpqXYQMEPizJXWHo62VkAAAAASUVORK5CYII="></span>
+                  <input type="number" name="12thpercentage" id="12thper1" class="form-control" placeholder="Eg : 85">
+                  </div>
+                  <small class="error error14"></small>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="12thyear">Year</label>
+                  <div class="input-group">
+                    <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABaUlEQVR4nN2VsUrDUBSGP7BCZ30BoaCbm2+gi+gTdKyKk3QQ666CODiLq5NdVFAzKOog4lBwEUQqitkcdFJUsEYu/CnHkDRaQwcP/OQm5z9fkpN7byA5hoBhoJCQLyjvfL+KPiCQ6gmeuvE4/49jwBT6CR7feJy/ZfQCC8AmUDSF90AJqBqVdD30FFXn6nvi4MfG7AEVaRa4MzmnW10PPZ7JHUXB3UAjAgjaVEO8ZuQzAgdSvmPwnOlfJQPl/kdb8p2A143hGrg0C8fO9ZvIvK5G1kksfA04Aw6ADaAM1KQn8wCDBjSt/Baw3gr+AUwAk8AnMBfzyovAKnCu84qOL8BSWs+rwL7G7kZTUk03nAGeDXQcGAXmgYc0+C5wonH0yU+BMYFHgHd5lpUL/gIvA48aHwLb8oRv5KfBr7TrhS0KV90FsBPZoDzTQteqvY7P8y7gLSPwq3jfYiUjuPu4sdGvP3q7cvXN+AIE3Ud4Z/YS/AAAAABJRU5ErkJggg=="></span>
+                  <input type="number" name="12thyear" id="12thyear1" class="form-control" placeholder="Eg : 2021">
+                  </div>
+                  <small class="error error15"></small>
+                </div>
+              </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label for="12thboard">Board</label>
+                <div class="form-group font-weight-normal">
+                  <div class="form-check">
+                    <input class="form-check-input board1" type="radio" name="12thboard1" id="bo1" value="STATEBOARD">
+                    <label class="form-check-label" for="bo1">
+                      STATEBOARD
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input board1" type="radio" name="12thboard1" id="bo2" value="CBSE">
+                    <label class="form-check-label" for="bo2">
+                      CBSE
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input board1" type="radio" name="12thboard1" id="bo3" value="MATRICULATION">
+                    <label class="form-check-label" for="bo3">
+                      MATRICULATION
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input board1" type="radio" name="12thboard1" id="board1" value="OTHERS">
+                    <label class="form-check-label" for="board1">
+                      OTHERS
+                    </label>
+                  </div>
+                    <div class="input-group">
+                     
+                    <input type="tel"  id="others2" name="board12others"class="form-control" placeholder="Enter Your Board" style="display: none;">
+                  </div>
+                  <small class="error error16"></small>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+
+                <label for="stream">Stream</label>
+                <div class="form-check font-weight-normal">
+                <input class="form-check-input stream" type="radio" name="stream1" id="stram1" value="BIOLOGY">
+                <label class="form-check-label" for="stram1">
+                  BIOLOGY
+                </label>
+              </div>
+              <div class="form-check font-weight-normal">
+                <input class="form-check-input stream" type="radio" name="stream1" id="stream2" value="COMPUTER SCIENCE">
+                <label class="form-check-label" for="stream2">
+                  COMPUTER SCIENCE
+                </label>
+              </div>
+              <div class="form-check font-weight-normal">
+                <input class="form-check-input stream" type="radio" name="stream1" id="stream3" value="VOCATIONAL">
+                <label class="form-check-label" for="stream3">
+                  VOCATIONAL
+                </label>
+              </div>
+             
+              <div class="form-check font-weight-normal">
+                <input class="form-check-input stream" type="radio" name="stream1" id="stream4" value="OTHERS">
+                <label class="form-check-label" for="stream4">
+                  OTHERS
+                </label>
+              </div>
+                <div class="input-group">
+                 
+                <input type="text" id="others3" class="form-control" placeholder="Enter Your Stream" style="display: none;" name="Stream">
+              </div>
+              <small class="error error17"></small>
+              </div>
+              
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label for="12thschool">School With Address</label>
+                <div class="input-group">
+                  <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABMklEQVR4nO2UwUoCURSGP0kX9Qi+gSsFQaRFq1IXRSvBhbSpoH3gG7jtEWptS+sd6gFqrZuWiqAgrSYu/AOHi3cc7bbrh8Md5vznmzln5l7YTSXgBDgFGkCBiLoFEhPHMeFHwCXQBdrAQSxwB/jQGlUtYK1RfAMXfwFOYj6g44GX5nq964gOgXN9sB6wEmgCVOWpAVPdX8nXVZ2rD+rVaz+NvufrB3wvWfCZeaOFKXKbxurM5BamQ1cf1FymK6BsACOzG936bHJl+RPVb4WPgKHX8hvwALx794fy54Yne0Yu+B1QyQmsyP+rsXwCT1qjjmUMFOUp6pfbeyz3QNMUuSPAqmVyTflzwx+BgQHUPV/d5Abyb4V/BdrNgttw9UHdyDD3Ij1XUlU3eFzddRb8Xzj9ACvDtOlZH5VgAAAAAElFTkSuQmCC"></span>
+                <input type="tel" name="12thschool" id="12thschool1" class="form-control" placeholder="Eg : YYY MATRICULATION HIGHER SECONDARY SCHOOL">
+                </div>
+                <small class="error error18"></small>        
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label for="mediumin">Medium of Instruction</label>
+                <div class="form-check font-weight-normal">
+                  <input class="form-check-input medium1" type="radio" name="12thmedium" id="12med1" value="ENGLISH">
+                  <label class="form-check-label" for="12med1">
+                    ENGLISH
+                  </label>
+                </div>
+                <div class="form-check font-weight-normal">
+                  <input class="form-check-input medium1" type="radio" name="12thmedium" id="12med2" value="TAMIL">
+                  <label class="form-check-label" for="12med2">
+                    TAMIL
+                  </label>
+                </div>
+                <div class="form-check font-weight-normal">
+                  <input class="form-check-input medium1" type="radio" name="12thmedium" id="medium1" value="OTHERS">
+                  <label class="form-check-label" for="medium1">
+                    OTHERS
+                  </label>
+                </div>
+                    <div class="input-group">
+                     
+                    <input type="tel" name="12thmediumothers" id="others4" class="form-control" placeholder="Enter Your Medium" style="display: none;">
+                  </div>
+                <small class="error error19"></small>
+            </div>
+          </div>
+            <div class="col-12">
+              <h1 class="font-weight-bold mt-5 mb-4">Diploma Details</h1>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label for="diplomaper">Percentage</label>
+                <div class="input-group">
+                  <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABMUlEQVR4nO2Uv0rDUBSHvy4dFAQdjE7d+gima96l2BdQsZODIHkIu4iCky9iN60+QDf/bN1arVz4AkESyZWM/SCQnHPu756cc+6FDZFsAwe0zA5wB6yANfAKpDWxF0AvRvxW0Tfg2fd3IPkVN9T3BHSalmKl8K62iSLHpbg+sAC+gKxp1ocKhYwLzrSd+90FptpyInlx4UThT+AbONKf6390oyhSa7z2CcKX+jJLsbA0/2LfGo9LGe8BczcMzWyVe4Uf2hYeKjz3DwID/2xUMaaN6VeM3ZW9KPry8cdBq6XrVJTHbqBwEDwFrvXPYsVzF05LYzfWdlKKm2kL56QRWc3YjRQKGWMPwuguga0mwh3vjKqxSyxJUYriTNwQQc9br4q0dJKXCofbtFWSpqXYQMEPizJXWHo62VkAAAAASUVORK5CYII="></span>
+                <input type="number" name="diplomapercentage" id="diplomaper1" class="form-control" placeholder="Eg : 85">
+              </div>
+              <small class="error error20"></small>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label for="diplomabranch">Branch</label>
+                <div class="input-group">
+                  <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABcElEQVR4nK2VTU4CQRCFPyOJS3/iHYQLiG7U47iThTJuBQ4AHkfwDzmDbAS8B+NgilQnnUr3TIu8pDPpqarX3a+rqiEdB8AhsM+WcQWsvNHcJvmNIb/elKgNLIBLndeBkSEfAg21X6j/XQrxSkcOTIDCELtRqD33/kl8FNMIUeqQ+CjOgGUg6AvoAxkwAGYBH4k7r5JmbKS5BXaNT00l8CWRuFI0jMZCnHpHhV5+MI9bwLORwu14D+gC70BH5+4Ecy9mpGkrfGscRS6n7y3eMzZZyGEQiRdejiPGzCN4M7ZXz5ZF4oV33S+qdt41NpHG4TESL7xrNLWkh55xppo6zTt6gocSzYfKE+w9dZMtpRUH3JtsOanwZ2LyvO2dwKGmxH6ef1QRS7P6Ceg3V20z/S4CPrk2sSB2gO9/9hZZNKnillrSZV1xbHpRUtudahNzl/xiiJ+8Uhe/zxTiGFqGfOOXKAT7hp5uk1wgr/6fXv9fl//cFwlIaM8AAAAASUVORK5CYII="></span>
+                <select class="form-select" aria-label="Default select example" id="dipdep" name="diplomadepartment">
+                  <option value="">Select Your Diploma Department</option>
+                  <option value="DIPLOMA IN ELECTRONICS AND COMMUNICATION ENGINEERING">DIPLOMA IN ELECTRONICS AND COMMUNICATION ENGINEERING</option>
+                  <option value="DIPLOMA IN COMPUTER SCIENCE ENGINEERING">DIPLOMA IN COMPUTER SCIENCE ENGINEERING</option>
+                  <option value="DIPLOMA IN INFORMATION TECHNOLOGY">DIPLOMA IN INFORMATION TECHNOLOGY</option>
+                  <option value="DIPLOMA IN MECHANICAL ENGINEERING">DIPLOMA IN MECHANICAL ENGINEERING</option>
+                  <option value="DIPLOMA IN ELECRTRICAL AND ELECTRONICS ENGINEERING">DIPLOMA IN ELECRTRICAL AND ELECTRONICS ENGINEERING</option>
+                  <option value="DIPLOMA IN CIVIL ENGINEERING">DIPLOMA IN CIVIL ENGINEERING</option>
+                  <option value="DIPLOMA IN BIOTECHNOLOGY">DIPLOMA IN BIOTECHNOLOGY</option>
+                  <option value="DIPLOMA IN TEXTILE TECHNOLOGY">DIPLOMA IN TEXTILE TECHNOLOGY</option>
+                  <option value="DIPLOMA IN FOOD TECHNOLOGY">DIPLOMA IN FOOD TECHNOLOGY</option>
+                  <option value="DIPLOMA IN MECHATRONICS">DIPLOMA IN MECHATRONICS</option>
+                  <option value="DIPLOMA IN COMPUTER SCIENCE AND BUISNESS SYSTEM">DIPLOMA IN COMPUTER SCIENCE AND BUISNESS SYSTEM</option>
+                  <option value="DIPLOMA IN ARTIFICIAL INTELLIGENCE AND DATA SCIENCE">DIPLOMA IN ARTIFICIAL INTELLIGENCE AND DATA SCIENCE</option>
+                </select>
+              </div>
+              <small class="error error21"></small>
+              </div>
+            </div>
+            
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label for="diplomayear">Year</label>
+                
+                    <div class="input-group">
+                      <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABaUlEQVR4nN2VsUrDUBSGP7BCZ30BoaCbm2+gi+gTdKyKk3QQ666CODiLq5NdVFAzKOog4lBwEUQqitkcdFJUsEYu/CnHkDRaQwcP/OQm5z9fkpN7byA5hoBhoJCQLyjvfL+KPiCQ6gmeuvE4/49jwBT6CR7feJy/ZfQCC8AmUDSF90AJqBqVdD30FFXn6nvi4MfG7AEVaRa4MzmnW10PPZ7JHUXB3UAjAgjaVEO8ZuQzAgdSvmPwnOlfJQPl/kdb8p2A143hGrg0C8fO9ZvIvK5G1kksfA04Aw6ADaAM1KQn8wCDBjSt/Baw3gr+AUwAk8AnMBfzyovAKnCu84qOL8BSWs+rwL7G7kZTUk03nAGeDXQcGAXmgYc0+C5wonH0yU+BMYFHgHd5lpUL/gIvA48aHwLb8oRv5KfBr7TrhS0KV90FsBPZoDzTQteqvY7P8y7gLSPwq3jfYiUjuPu4sdGvP3q7cvXN+AIE3Ud4Z/YS/AAAAABJRU5ErkJggg=="></span>
+                <input type="number" name="diplomayear" id="diplomayear1" class="form-control" placeholder="Eg : 2021">
+              </div>
+              <small class="error error22"></small>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label for="Diplomaclass">Class Obtained</label>
+                <div class="form-check font-weight-normal">
+                  <input class="form-check-input class" type="radio" name="class" id="class1" value="FIRST CLASS">
+                  <label class="form-check-label" for="class1">
+                    FIRST CLASS
+                  </label>
+                </div>
+                <div class="form-check font-weight-normal">
+                  <input class="form-check-input class" type="radio" name="class" id="class2" value="SECOND CLASS">
+                  <label class="form-check-label" for="class2">
+                    SECOND CLASS
+                  </label>
+                </div>
+                <div class="form-check font-weight-normal">
+                  <input class="form-check-input class" type="radio" name="class" id="class3" value="THIRD CLASS">
+                  <label class="form-check-label" for="class3">
+                    THIRD CLASS
+                  </label>
+                </div>
+                <small class="error error23"></small>
+              </div>
+            </div>
+          <div class="col-lg-6">
+            <div class="form-group">
+              <label for="diploma">College With Address</label>
+              <div class="input-group">
+                <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABPklEQVR4nO2UPUsDQRRFzw+w2gRCCH4gxDaFpW0at0m1pb2Fv0NsLVMJFhaWtlZBG8G0WwS2W6uAwcptNDJwBx6PRMOqWMQLj7x5c+cwezcsrIMOgAv9/pgS4Bx4A+bAO3AJtL4LPgZmgvqaab+WNoDKwO6AE+DezCr5aulIkBBJQ7OGoplrv7Yyc8uuZntmFva/1DZwCpyZShy81L/lycETdy5wtiw8BV7dC9t18EWVyWdngXPob39jbngLtA38ARirH2sd4W35S80Ch2Xw4YLM94G++r7WPvPhKvDyN28+BR6BjoHnwET9ROsI78g//fNYCuBa344ID489Uj/SOsJb8herwF9k3DTwSrNY8bOQyVfoXK1YUudN68aSy9h0mVvZzJvy55/Br4BnUzvAQH3PeXuaD+Sz5wLnXyzVB6IQrW4rJZH2AAAAAElFTkSuQmCC"></span>
+              <input type="tel" name="diplomacollege" id="diplomacollege" class="form-control" placeholder="Eg : YYY POLYTECHNIC COLLEGE">
+              </div>
+              <small class="error error24"></small>
+            </div>
+          </div>
+          <div class="col-lg-12"><h1 class="font-weight-bold mt-5 mb-4">UG Details</h1></div>
+          <div class="col-lg-6 ">
+            <div class="form-group">
+            <label for="semester">Semester 1 SGPA</label>
+            <div class="input-group">
+          <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABA0lEQVR4nOXSvUoDQRTF8Z92gha+QLS3tFOCRfAR0oidKPggeQjFRkkhBNTGykqw8KMWbewjgmAhGFKsDFws4i66m7UIHjjcGebOn5nL4XeaxhHecBj70trBXo57uMBM1F5B33YReAlZjjtooxF9jdh3CvoT55uaP8DbIy6CN8vAs5L+x/CXqIOIZ23wdyzgHC3sV4GvY3nEp3F2gylsVB1LH08jTmMYxou34gdXdY5lgG6s73E9UWnpR/3A61+k5QxrOKgCb+Wk5STO7iItm1XH8pyTlmE4vXgXi7isOy3HsX7E7USlJSsLX60JvpIHn4sZjgN+wGwePCnFa34Mp/tf+gTe9kYSrIDrCgAAAABJRU5ErkJggg=="></span>
+        <input type="text" class="form-control" name="semester1" id="semester1" placeholder="Enter Your Semester1"></div>
+        <small class="error error25"></small>
+          </div>
+          
+          </div>
+        
+          <div class="col-lg-6"><div class="form-group">
+            
+            <label for="semester">Semester 2 SGPA</label>
+            <div class="input-group"
+            >
+          <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABA0lEQVR4nOXSvUoDQRTF8Z92gha+QLS3tFOCRfAR0oidKPggeQjFRkkhBNTGykqw8KMWbewjgmAhGFKsDFws4i66m7UIHjjcGebOn5nL4XeaxhHecBj70trBXo57uMBM1F5B33YReAlZjjtooxF9jdh3CvoT55uaP8DbIy6CN8vAs5L+x/CXqIOIZ23wdyzgHC3sV4GvY3nEp3F2gylsVB1LH08jTmMYxou34gdXdY5lgG6s73E9UWnpR/3A61+k5QxrOKgCb+Wk5STO7iItm1XH8pyTlmE4vXgXi7isOy3HsX7E7USlJSsLX60JvpIHn4sZjgN+wGwePCnFa34Mp/tf+gTe9kYSrIDrCgAAAABJRU5ErkJggg=="></span>
+            <input type="text" class="form-control" name="semester2" id="semester2" placeholder="Enter Your Semester 2">
+          </div>
+          <small class="error error26"></small>
+        </div>
+          </div>
+          <div class="col-lg-6"><div class="form-group">
+            
+            <label for="semester">Semester 3 SGPA</label>
+            <div class="input-group"
+            >
+          <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABA0lEQVR4nOXSvUoDQRTF8Z92gha+QLS3tFOCRfAR0oidKPggeQjFRkkhBNTGykqw8KMWbewjgmAhGFKsDFws4i66m7UIHjjcGebOn5nL4XeaxhHecBj70trBXo57uMBM1F5B33YReAlZjjtooxF9jdh3CvoT55uaP8DbIy6CN8vAs5L+x/CXqIOIZ23wdyzgHC3sV4GvY3nEp3F2gylsVB1LH08jTmMYxou34gdXdY5lgG6s73E9UWnpR/3A61+k5QxrOKgCb+Wk5STO7iItm1XH8pyTlmE4vXgXi7isOy3HsX7E7USlJSsLX60JvpIHn4sZjgN+wGwePCnFa34Mp/tf+gTe9kYSrIDrCgAAAABJRU5ErkJggg=="></span>
+            <input type="text" class="form-control" name="semester3" id="semester3" placeholder="Enter Your Semester 3">
+          </div>
+          <small class="error error27"></small>
+        </div>
+          </div>
+        
+          <div class="col-lg-6"><div class="form-group">
+            
+            <label for="semester">Semester 4 SGPA</label>
+            <div class="input-group"
+            >
+          <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABA0lEQVR4nOXSvUoDQRTF8Z92gha+QLS3tFOCRfAR0oidKPggeQjFRkkhBNTGykqw8KMWbewjgmAhGFKsDFws4i66m7UIHjjcGebOn5nL4XeaxhHecBj70trBXo57uMBM1F5B33YReAlZjjtooxF9jdh3CvoT55uaP8DbIy6CN8vAs5L+x/CXqIOIZ23wdyzgHC3sV4GvY3nEp3F2gylsVB1LH08jTmMYxou34gdXdY5lgG6s73E9UWnpR/3A61+k5QxrOKgCb+Wk5STO7iItm1XH8pyTlmE4vXgXi7isOy3HsX7E7USlJSsLX60JvpIHn4sZjgN+wGwePCnFa34Mp/tf+gTe9kYSrIDrCgAAAABJRU5ErkJggg=="></span>
+            <input type="text" class="form-control" name="semester4" id="semester4" placeholder="Enter Your Semester 4">
+          </div>
+          <small class="error  error28"></small>
+        </div>
+          </div>
+        
+          <div class="col-lg-6"><div class="form-group">
+            
+            <label for="semester">Semester 5 SGPA</label>
+            <div class="input-group"
+            >
+          <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABA0lEQVR4nOXSvUoDQRTF8Z92gha+QLS3tFOCRfAR0oidKPggeQjFRkkhBNTGykqw8KMWbewjgmAhGFKsDFws4i66m7UIHjjcGebOn5nL4XeaxhHecBj70trBXo57uMBM1F5B33YReAlZjjtooxF9jdh3CvoT55uaP8DbIy6CN8vAs5L+x/CXqIOIZ23wdyzgHC3sV4GvY3nEp3F2gylsVB1LH08jTmMYxou34gdXdY5lgG6s73E9UWnpR/3A61+k5QxrOKgCb+Wk5STO7iItm1XH8pyTlmE4vXgXi7isOy3HsX7E7USlJSsLX60JvpIHn4sZjgN+wGwePCnFa34Mp/tf+gTe9kYSrIDrCgAAAABJRU5ErkJggg=="></span>
+            <input type="text" class="form-control" name="semester5" id="semester5" placeholder="Enter Your Semester 5">
+          </div>
+          <small class="error  error29"></small>
+        </div>
+          </div>
+        
+          <div class="col-lg-6"><div class="form-group">
+            
+            <label for="semester">Semester 6 SGPA</label>
+            <div class="input-group"
+            >
+          <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABA0lEQVR4nOXSvUoDQRTF8Z92gha+QLS3tFOCRfAR0oidKPggeQjFRkkhBNTGykqw8KMWbewjgmAhGFKsDFws4i66m7UIHjjcGebOn5nL4XeaxhHecBj70trBXo57uMBM1F5B33YReAlZjjtooxF9jdh3CvoT55uaP8DbIy6CN8vAs5L+x/CXqIOIZ23wdyzgHC3sV4GvY3nEp3F2gylsVB1LH08jTmMYxou34gdXdY5lgG6s73E9UWnpR/3A61+k5QxrOKgCb+Wk5STO7iItm1XH8pyTlmE4vXgXi7isOy3HsX7E7USlJSsLX60JvpIHn4sZjgN+wGwePCnFa34Mp/tf+gTe9kYSrIDrCgAAAABJRU5ErkJggg=="></span>
+            <input type="text" class="form-control" name="semester6" id="semester6" placeholder="Enter Your Semester 6">
+          </div>
+          <small class="error error30"></small>
+        </div>
+          </div>
+        
+          <div class="col-lg-6"><div class="form-group">
+            
+            <label for="semester">Semester 7 SGPA</label>
+            <div class="input-group"
+            >
+
+          <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABA0lEQVR4nOXSvUoDQRTF8Z92gha+QLS3tFOCRfAR0oidKPggeQjFRkkhBNTGykqw8KMWbewjgmAhGFKsDFws4i66m7UIHjjcGebOn5nL4XeaxhHecBj70trBXo57uMBM1F5B33YReAlZjjtooxF9jdh3CvoT55uaP8DbIy6CN8vAs5L+x/CXqIOIZ23wdyzgHC3sV4GvY3nEp3F2gylsVB1LH08jTmMYxou34gdXdY5lgG6s73E9UWnpR/3A61+k5QxrOKgCb+Wk5STO7iItm1XH8pyTlmE4vXgXi7isOy3HsX7E7USlJSsLX60JvpIHn4sZjgN+wGwePCnFa34Mp/tf+gTe9kYSrIDrCgAAAABJRU5ErkJggg=="></span>
+            <input type="text" class="form-control" name="semester7" id="semester7" placeholder="Enter Your Semester 7">
+          </div>
+          <small class="error error31"></small>
+        </div>
+          </div>
+          <div class="col-lg-6"><div class="form-group">
+            
+            <label for="semester">Semester 8 SGPA</label>
+            <div class="input-group"
+            >
+          <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABA0lEQVR4nOXSvUoDQRTF8Z92gha+QLS3tFOCRfAR0oidKPggeQjFRkkhBNTGykqw8KMWbewjgmAhGFKsDFws4i66m7UIHjjcGebOn5nL4XeaxhHecBj70trBXo57uMBM1F5B33YReAlZjjtooxF9jdh3CvoT55uaP8DbIy6CN8vAs5L+x/CXqIOIZ23wdyzgHC3sV4GvY3nEp3F2gylsVB1LH08jTmMYxou34gdXdY5lgG6s73E9UWnpR/3A61+k5QxrOKgCb+Wk5STO7iItm1XH8pyTlmE4vXgXi7isOy3HsX7E7USlJSsLX60JvpIHn4sZjgN+wGwePCnFa34Mp/tf+gTe9kYSrIDrCgAAAABJRU5ErkJggg=="></span>
+            <input type="text" class="form-control" name="semester8" id="semester8" placeholder="Enter Your Semester 8">
+          </div>
+          <small class="error error32"></small>
+        </div>
+          </div>
+           <div class="col-lg-6">
+            <div class="form-group">
+              <label for="cgpa">UG CGPA</label>
+              <div class="input-group">
+                <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAuElEQVR4nNXVPWoCYRDG8d8RUm+pkMJa7FN5DZucwSuI2HoFC2tJGysLU1kYSGsXUomIsuC+IbCFReC12Cl24OmGP8MzXwRHgU6Aij94iRSgUhA41WoH/BPfOfgU44x2d/kL/KCLfQ7+hmVGhzq3wghPmETZ8o5baxs6xTYHf3lg+1Z3ng8xRw/npitf4xkfrfX8iGuTc57wVR+pPjZNbmiFQQ1+jbDlghlOrW1o+g8e+omKyB8aFr/TEpWEjdnTNAAAAABJRU5ErkJggg=="></span>
+              
+              <input type="text" name="cgpa" id="cgpa1" class="form-control" placeholder="Enter your UG CGPA">
+            </div>
+            <small class="error error33"></small>
+          </div>
+           </div>
+           <div class="col-lg-12">
+            <h1 class="font-weight-bold mt-5 mb-4">PG Details</h1>
+           </div>
+           <div class="col-lg-6">
+            <div class="form-group">
+              <label for="sem">Semester 1</label>
+              <div class="input-group"
+            >
+          <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABA0lEQVR4nOXSvUoDQRTF8Z92gha+QLS3tFOCRfAR0oidKPggeQjFRkkhBNTGykqw8KMWbewjgmAhGFKsDFws4i66m7UIHjjcGebOn5nL4XeaxhHecBj70trBXo57uMBM1F5B33YReAlZjjtooxF9jdh3CvoT55uaP8DbIy6CN8vAs5L+x/CXqIOIZ23wdyzgHC3sV4GvY3nEp3F2gylsVB1LH08jTmMYxou34gdXdY5lgG6s73E9UWnpR/3A61+k5QxrOKgCb+Wk5STO7iItm1XH8pyTlmE4vXgXi7isOy3HsX7E7USlJSsLX60JvpIHn4sZjgN+wGwePCnFa34Mp/tf+gTe9kYSrIDrCgAAAABJRU5ErkJggg=="></span>
+              <input type="text" name="sem1" id="sem1" class="form-control" placeholder="Enter Your Semester 1">
+            </div>
+            <small class="error error34"></small>
+           </div>
+          </div>
+           <div class="col-lg-6">
+            <div class="form-group">
+              <label for="sem">Semester 2</label>
+              <div class="input-group"
+            >
+          <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABA0lEQVR4nOXSvUoDQRTF8Z92gha+QLS3tFOCRfAR0oidKPggeQjFRkkhBNTGykqw8KMWbewjgmAhGFKsDFws4i66m7UIHjjcGebOn5nL4XeaxhHecBj70trBXo57uMBM1F5B33YReAlZjjtooxF9jdh3CvoT55uaP8DbIy6CN8vAs5L+x/CXqIOIZ23wdyzgHC3sV4GvY3nEp3F2gylsVB1LH08jTmMYxou34gdXdY5lgG6s73E9UWnpR/3A61+k5QxrOKgCb+Wk5STO7iItm1XH8pyTlmE4vXgXi7isOy3HsX7E7USlJSsLX60JvpIHn4sZjgN+wGwePCnFa34Mp/tf+gTe9kYSrIDrCgAAAABJRU5ErkJggg=="></span>
+              <input type="text" name="sem2" id="sem2" class="form-control" placeholder="Enter Your Semester 2">
+            </div>
+            <small class="error error35"></small>
+          </div>
+           </div>
+           <div class="col-lg-6">
+            <div class="form-group">
+              <label for="sem">Semester 3</label>
+              <div class="input-group"
+            >
+          <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABA0lEQVR4nOXSvUoDQRTF8Z92gha+QLS3tFOCRfAR0oidKPggeQjFRkkhBNTGykqw8KMWbewjgmAhGFKsDFws4i66m7UIHjjcGebOn5nL4XeaxhHecBj70trBXo57uMBM1F5B33YReAlZjjtooxF9jdh3CvoT55uaP8DbIy6CN8vAs5L+x/CXqIOIZ23wdyzgHC3sV4GvY3nEp3F2gylsVB1LH08jTmMYxou34gdXdY5lgG6s73E9UWnpR/3A61+k5QxrOKgCb+Wk5STO7iItm1XH8pyTlmE4vXgXi7isOy3HsX7E7USlJSsLX60JvpIHn4sZjgN+wGwePCnFa34Mp/tf+gTe9kYSrIDrCgAAAABJRU5ErkJggg=="></span>
+              <input type="text" name="sem3" id="sem3" class="form-control" placeholder="Enter Your Semester 3">
+            </div>
+            <small class="error error36"></small>
+          </div>
+           </div>
+           <div class="col-lg-6">
+            <div class="form-group">
+              <label for="sem">Semester 4</label>
+              <div class="input-group"
+            >
+          <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABA0lEQVR4nOXSvUoDQRTF8Z92gha+QLS3tFOCRfAR0oidKPggeQjFRkkhBNTGykqw8KMWbewjgmAhGFKsDFws4i66m7UIHjjcGebOn5nL4XeaxhHecBj70trBXo57uMBM1F5B33YReAlZjjtooxF9jdh3CvoT55uaP8DbIy6CN8vAs5L+x/CXqIOIZ23wdyzgHC3sV4GvY3nEp3F2gylsVB1LH08jTmMYxou34gdXdY5lgG6s73E9UWnpR/3A61+k5QxrOKgCb+Wk5STO7iItm1XH8pyTlmE4vXgXi7isOy3HsX7E7USlJSsLX60JvpIHn4sZjgN+wGwePCnFa34Mp/tf+gTe9kYSrIDrCgAAAABJRU5ErkJggg=="></span>
+              <input type="text" name="sem4" id="sem4" class="form-control" placeholder="Enter Your Semester 4">
+            </div>
+            <small class="error error37"></small>
+          </div> 
+           </div>
+           <div class="col-lg-6">
+            <div class="form-group">
+              <label for="pgcgpa">PG CGPA</label>
+              <div class="input-group">
+                <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAuElEQVR4nNXVPWoCYRDG8d8RUm+pkMJa7FN5DZucwSuI2HoFC2tJGysLU1kYSGsXUomIsuC+IbCFReC12Cl24OmGP8MzXwRHgU6Aij94iRSgUhA41WoH/BPfOfgU44x2d/kL/KCLfQ7+hmVGhzq3wghPmETZ8o5baxs6xTYHf3lg+1Z3ng8xRw/npitf4xkfrfX8iGuTc57wVR+pPjZNbmiFQQ1+jbDlghlOrW1o+g8e+omKyB8aFr/TEpWEjdnTNAAAAABJRU5ErkJggg=="></span>
+              
+              <input type="text" name="pgcgpa" id="pgcgpa1" class="form-control" placeholder="Enter your PG CGPA">
+            </div>
+            <small class="error error38"></small>
+            </div>
+            
+           </div>
+           <div class="col-lg-12"><h1 class="font-weight-bold mt-5 mb-4">Arrear Details</h1></div>
+           <div class="col-lg-6 ">
+            <div class="form-group">
+              <label for="arear">Arrear Status</label>
+              <div class="form-group">
+                <div class="form-check font-weight-normal">
+                  <input class="form-check-input arr" type="radio" name="arrear" id="arrear1" value="No History of Arrears">
+                  <label class="form-check-label arr" for="arrear1">
+                    NHA <small>(No History of Arrears)</small>
+                  </label>
+                </div>
+                <div class="form-check font-weight-normal">
+                  <input class="form-check-input arr" type="radio" name="arrear" id="arrear2" value="No Standing Arrears">
+                  <label class="form-check-label" for="arrear2">
+                    NSA <small>(No Standing Arrears)</small>
+                  </label>
+                  
+                </div>
+                <input type="number" name="arrearattempt" id="arreara" class="form-control m-2" placeholder="Enter the Number Of Attempts" style="display: none;">
+                <small class="error error40"></small>
+                <div class="form-check font-weight-normal">
+                  <input class="form-check-input arr" type="radio" name="arrear" id="arrear3" value="Standing Arrears">
+                  <label class="form-check-label" for="arrear3">
+                    
+                    SA <small>(Standing Arrears)</small>
+                  </label>
+                  
+                </div>
+                <input type="text" name="noarrear" id="noarrear" class="form-control m-2" placeholder="Enter the Number of Standing Arrear" style="display: none;">
+                <small class="error error39"></small>
+              </div>
+              </div>
+            
+              
+                            </div>
+                            <div class="col-lg-6 ">
+                              <div class="form-group">
+                                <label for="classob">Arrear Details </label>
+                                <input type="text" name="arreardetails" id="arreardet" class="form-control" placeholder="Enter The Subject Code">
+                                <small class="error error42"></small>
+                              </div>
+                            </div>
+                            <div class="col-lg-12"><h1 class="font-weight-bold mt-5 mb-4">Others</h1></div>
+                            <div class="col-lg-6 ">
+                              <div class="form-group">
+                                <label for="skill">Skill Set</label>
+                                <div class="input-group">
+                                  <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABoElEQVR4nLXUTYhPURjH8Y+3QvKyYWHBSjYWSsqGLMwCRUqNnSFsbLyVkjFFYqcsWNhMWdixkaSkLNjMFCVJKZS8Je9TyoxuPaMzp/u/5/5n+NVT99zz3O95zu8599BeCzHDP9B07MBVvMYvjEV8xG0cxoJuwasxnMCa4hP62oI34GsBWC38Knt3ogRegncN0Ju4j204E5Y9j7nf2NQEv1yo+E40dDd6sAhvk/khTKsDV4350QB+hJ3Ym1S6EofwJclbUwff2qFZR+O58ngg8kbxDcvCmp/JN/118P4k4TPW41hs/TR6MYj5WIXlWIzHWUE36uAXs6QtOIi7WBfzT8PjfbHQcGZJFd+xNIdfShI2YhZGYnw9Kj4V4w9hS6f+VFZN0EBmSw8u4E38qecLDU9jNHb7V5sz+Apsx1zs6tDwpniYwmfHnTE+OYL30cjxcTfwZ7k1J7sEjNVEdXUciR1P0By8mCL8gQb1/k/4zDghk4XfU9DgFOBnS/DjkwQ/wbwS/EBL2EtcwbU4IdWBKGp/S/itNrBca3GuRewpkf4AxEAt42+tkgYAAAAASUVORK5CYII="></span>
+                                
+                                <input type="text" name="skill" id="skill1" class="form-control" placeholder="Eg : C Programming, Java Programming">
+                              </div>
+                              <small class="error error43"></small>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 ">
+                              <div class="form-group">
+                                <label for="value">Value Added/Certificate Courses</label>
+                                <div class="input-group">
+                                  <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAz0lEQVR4nO3VPWpCQRiF4QfsBDdhY+cSxFRWaQTBMu7APnuwNq0rsA/iBuytXIAgFgFFAv5wYYpwiXq9dxQLPzgw8HHe4swMhwdOCdUCSvxn5x3HAkr8Z6ddEJ74X3C5Y1mjk0HrPPAdvjNo93QXusz4cZZ54PuQ5zXtny6W4x+tcIgN/0UXZTQwiwkfpvatmPBBat+ICZ+hFnZJNF+xL3SBCab3eC39EMcbtkXg/zXRB0YBvrkCv9hE6Q4d4wefmAd47g5NTxP1cK6gd4v5BEX4DDrUWykVAAAAAElFTkSuQmCC"></span>
+                                
+                                <input type="text" name="value" id="value1" class="form-control" placeholder="Enter your Value Added Certificate">
+                                </div>
+                                <small class="error"></small>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 ">
+                              <div class="form-group">
+                                <label for="Gate">Gate Tancet Score</label>
+                                <div class="input-group">
+                                  <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABC0lEQVR4nM2VsUrDUBiFvyUWOrSGQBeHiEPHinaWUujmW4j4GC4upa/RzblbX8PVsYOFFnTsErlwIj/Xm5rcIuTAGXLu+T9ubkICf+sMSAN2eSNlwJWcC7IHioB3Ws/NjJsP6hI4mOENMKoAlx6pV14fxPmlO29wEwEvxDkKv9btngPbCvCH1nP1a8P7Jk8qHqjLS/Vj4XXUGJ4AY883pj9UlsTAM2DteWX6C2VZ646lCzx5fjD9e2XdGHgPmHt+Mf1HZb3WHUsKvHpemv6zsjQG3gFmnqemf6us07pjGQDvnt9Mf6ls0Lqd/xt8EviuHPOkCbw4wUH4BfB1IvhTnKDcOxv6MdS1m//RN4rvt3fjfRyVAAAAAElFTkSuQmCC"></span>
+                                <input type="text" name="gate" id="Gate1" class="form-control" placeholder="Enter your Gate Tancet Score">
+                                </div>
+                                <small class="error"></small>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 ">
+                              <div class="form-group">
+                                <label for="GRE">GRE/TOFEL</label>
+                                <div class="input-group">
+                                  <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABC0lEQVR4nM2VsUrDUBiFvyUWOrSGQBeHiEPHinaWUujmW4j4GC4upa/RzblbX8PVsYOFFnTsErlwIj/Xm5rcIuTAGXLu+T9ubkICf+sMSAN2eSNlwJWcC7IHioB3Ws/NjJsP6hI4mOENMKoAlx6pV14fxPmlO29wEwEvxDkKv9btngPbCvCH1nP1a8P7Jk8qHqjLS/Vj4XXUGJ4AY883pj9UlsTAM2DteWX6C2VZ646lCzx5fjD9e2XdGHgPmHt+Mf1HZb3WHUsKvHpemv6zsjQG3gFmnqemf6us07pjGQDvnt9Mf6ls0Lqd/xt8EviuHPOkCbw4wUH4BfB1IvhTnKDcOxv6MdS1m//RN4rvt3fjfRyVAAAAAElFTkSuQmCC"></span>
+                                <input type="text" name="gre" id="GRE1" class="form-control" placeholder="Enter your GRE/TOFEL">
+                                </div>
+                                <small class="error"></small>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 ">
+                              <div class="form-group">
+                                <label for="paper">Paper Presentation</label>
+                                <div class="input-group">
+                                  <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABC0lEQVR4nM2VsUrDUBiFvyUWOrSGQBeHiEPHinaWUujmW4j4GC4upa/RzblbX8PVsYOFFnTsErlwIj/Xm5rcIuTAGXLu+T9ubkICf+sMSAN2eSNlwJWcC7IHioB3Ws/NjJsP6hI4mOENMKoAlx6pV14fxPmlO29wEwEvxDkKv9btngPbCvCH1nP1a8P7Jk8qHqjLS/Vj4XXUGJ4AY883pj9UlsTAM2DteWX6C2VZ646lCzx5fjD9e2XdGHgPmHt+Mf1HZb3WHUsKvHpemv6zsjQG3gFmnqemf6us07pjGQDvnt9Mf6ls0Lqd/xt8EviuHPOkCbw4wUH4BfB1IvhTnKDcOxv6MdS1m//RN4rvt3fjfRyVAAAAAElFTkSuQmCC"></span>
+                                <input type="text" name="paper" id="paper1" class="form-control" placeholder="Enter your paper Presentation Title">
+                                </div>
+                                <small class="error"></small>
+                              </div>
+                            </div>
+                            <div class="col-lg-6">
+                              <div class="form-group">
+                                <label for="language"><i class="fa-solid fa-language fa-lg" style="color: #010813;"></i>    Languages Known</label>
+                                <div class="form-check font-weight-normal">
+                                                                   
+                                <input class="form-check-input lang" type="checkbox" name="language" id="tamil" value="TAMIL">
+                              
+                                <label class="form-check-label lang" for="tamil">
+                                  TAMIL
+                                </label>
+                                </div>
+                              <div class="form-check font-weight-normal">
+                                <input class="form-check-input lang" type="checkbox" name="language"  id="ENGLISH">
+                                <label class="form-check-label" for="ENGLISH">
+                                  ENGLISH
+                                </label>
+                              </div>
+                              <div class="form-check font-weight-normal">
+                                <input class="form-check-input lang" type="checkbox" name="language"  id="others5" value="OTHERS">
+                                <label class="form-check-label" for="others5">
+                                  OTHERS
+                                </label>
+                              </div>
+                              <div class="input-group" >
+                               
+                                <input type="tel" name="languageothers" id="Others" class="form-control" placeholder="Eg : Telugu,Malayalam" style="display: none;">
+                              </div>
+                              <small class="error error44"></small> 
+                            </div>
+                            </div>
+                            <div class="col-lg-6">
+                              <div class="form-group">
+                                <label for="mobile">Mobile Number</label>
+                                <div class="input-group">
+                                  <span class="input-group-text" id="basic-addon3"><i class="fa-solid fa-mobile fa-lg"></i></span>
+                                <input type="tel" name="mobile" id="mobile1" class="form-control" placeholder="Eg : 97XXXXXXX5"></div>
+                                <small class="error error45"></small>
+                              </div>
+                            </div>
+                            <div class="col-lg-6">
+                              <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <div class="input-group">
+                                  <span class="input-group-text" id="basic-addon4"><i class="fa-solid fa-envelope fa-lg"></i></span>
+                                  <input type="tel" name="email" id="email1" class="form-control" placeholder="XXXgmail.com">
+                                  
+                                 
+                                </div>
+                                <small class="error error46"></small>
+                              </div>
+                            </div>
+                              
+                                <div class="col-lg-6">
+                                  <div class="form-group">
+                                  <label for="inputAddress" class="form-label">Permanent Address</label>
+                                  <div class="input-group"> 
+                                    <span class="input-group-text" id="basic-addon5"><i class="fa-solid fa-location-dot fa-lg"></i></span><input type="text" class="form-control" id="inputAddress1" placeholder="Door No,(P.O),(T.K)" name="peraddress">
+                                  </div>
+                                  <small class="error error47"></small>
+                                </div>
+                              </div>
+                                <div class="col-lg-6"></div>
+                                
+                                <div class="col-lg-6">
+                                  <div class="form-group">
+                                  <label for="inputCity" class="form-label">City</label>
+                                  <div class="input-group"> 
+                                    <span class="input-group-text" id="inputcity"><i class="fa-solid fa-city fa-lg"></i></span><input type="text" class="form-control" id="inputcity1" placeholder="Eg : Theni" name="percity">
+                                  </div>
+                                  <small class="error error48"></small>
+                                  
+                                </div>
+                                </div>
+                               
+                                <div class="col-lg-6">
+                                  <div class="form-group">
+                                  <label for="inputZip" class="form-label">Pincode</label>
+                                  <div class="input-group">
+                                    <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA5klEQVR4nO3UrU5DQRCG4YcmgKpEg8KAwXAbiOJAAkGA4QYqCD+XQFK4AXAQEK0FBalpTUUx1DVwDeSQKbQnx7EnIaRfsmZ39p0vuzPDVP9aVTTx8cs1xGkefoXjBCbn8T6+sYFnzEqjzP2XFvCK5UTgCfgd9hOCv+F7eMCMHx2ii03M4QZPWMQqXnCJCnYjdrsIPsBa7uAtkj5iPWAXOMIZztHHEnoR2y6CZ5nvc84P0EEtnF9Hosz5Snx8I+7shPOtInim27LefFQt/bKqpdQ6H+/QuhI6dDRbWolmy0kCk1P9JX0CsNxNWrZo7j0AAAAASUVORK5CYII="></span>
+                                  
+                                  <input type="text" class="form-control" id="inputZip1"  placeholder="625XXX" name="perpin">
+                                </div>
+                                <small class="error error49"></small>
+                                  </div>
+                                </div>
+                               
+                               <div class="col-lg-6">
+                                <div class="form-group">
+                                <label for="inputAddress2" class="form-label">Present Address</label>
+                                <div class="input-group"> 
+                                  <span class="input-group-text" id="basic-addon7"><i class="fa-solid fa-location-dot fa-lg"></i></span><input type="text" class="form-control" id="inputAddress21" placeholder="Door No,(P.O),(T.K)" name="preaddress">
+                                </div>
+                                <small class="error error50"></small>
+                              </div>
+                              </div>
+                              <div class="col-lg-6"></div>
+                              <div class="col-lg-6">
+                                <div class="form-group">
+                                <label for="inputCity" class="form-label">City</label>
+                                <div class="input-group"> 
+                                  <span class="input-group-text" id="basic-addon7"><i class="fa-solid fa-city fa-lg"></i></span><input type="text" class="form-control" id="inputCity1" placeholder="Eg : Theni" name="precity">
+                                </div>
+                                <small class="error error51"></small>
+                              </div>
+                              </div>
+                             
+                              <div class="col-lg-6">
+                                <div class="form-group">
+                                <label for="inputZip2" class="form-label">Pincode</label>
+                                <div class="input-group">
+                                  <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA5klEQVR4nO3UrU5DQRCG4YcmgKpEg8KAwXAbiOJAAkGA4QYqCD+XQFK4AXAQEK0FBalpTUUx1DVwDeSQKbQnx7EnIaRfsmZ39p0vuzPDVP9aVTTx8cs1xGkefoXjBCbn8T6+sYFnzEqjzP2XFvCK5UTgCfgd9hOCv+F7eMCMHx2ii03M4QZPWMQqXnCJCnYjdrsIPsBa7uAtkj5iPWAXOMIZztHHEnoR2y6CZ5nvc84P0EEtnF9Hosz5Snx8I+7shPOtInim27LefFQt/bKqpdQ6H+/QuhI6dDRbWolmy0kCk1P9JX0CsNxNWrZo7j0AAAAASUVORK5CYII="></span>
+                                
+                                <input type="text" class="form-control" id="inputZip21" placeholder="625XXX" name="prepin">
+                              </div>
+                              <small class="error error52"></small>
+                            </div>
+                              </div>
+                              <div class="col-lg-6">
+                                <div class="form-group">
+                                  <label for="father">Father's Name</label>
+                                  <div class="input-group">
+                                    <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA50lEQVR4nOWUMQtBURiGn83OomQ3yGiTnyEmFoNVSslIYZBBsjKZMRjY+AP8Br/AoMTVqXvrpuM67ncG5a13OX09z/Cdc+BfEgdqwBDoAFmb8AJwARxf70ATSEjhKeD6Avf3DCQlgl4A3GtXIlgaCDYSwdZAsJMI+gaCgUSwMBComdCZGAjGEkEEOAXAj+6MKKUAQRFLGWng6sxaqhqBOrOWuUYwk0JjQAU4BOxgD5SB6DfgPLAGbgZX1KuaXQG5T/CG+xU7IXsH6u/gGeAhgDs+SVonaFuAO25bOoF6NFNLLX6z9N/OE8FuvE227cWbAAAAAElFTkSuQmCC"></span>
+                                  <input type="text" name="father" id="father1" placeholder="Father's Name" class="form-control">
+                                  <input type="text" name="fatherinitial" id="finitial" class="form-control" placeholder="Initial" aria-label="Username" aria-describedby="basic-addon1"> 
+                                </div>
+                                <span><small class="error error53"></small></span>  
+                                <span><small class="error error531"></small></span>
+                                </div>
+                              </div>
+                              <div class="col-lg-6">
+                                <div class="form-group"><label for="mother">Mother's Name</label>
+                                  <div class="input-group">
+                                    <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA5ElEQVR4nOXTsQ7BQBzH8a8Nm03EIAYSE28gjBLxEBi9RRcJu4HBYDB4ABa7xeQFkDDVA4jKJddELpH+79qJX/JLmjb3ufbyL/xDOsAKmOnr2MkAY+AEvIDgo4u4+NIAzfZc4TLwjMAPrvgoAg70UeVd8LkAV+264Fshrr7QOkchPnHBr0J8YwunBZMSVv0DVmkL4UC/hNXE1IC9EN8BJRxSBfqAZ4Cevl8hgTQMvJ4EmgWGwN3Ab8BAP7dOEZgCfsR5+3rOC1K4BTwspiXcpBkFp4CLJRz2rNd/TQ5Yx6ha/wN5A0LhqlNKLBIaAAAAAElFTkSuQmCC"></span>
+                                  
+                                  <input type="text" name="mother" id="mother1" placeholder="Mother's Name" class="form-control"> <input type="text" name="motherinitial" id="minitial" class="form-control" placeholder="Initial" aria-label="Username" aria-describedby="basic-addon1"></div>
+                                  <span><small class="error error54"></small></span>
+                                  <span><small class="error error541"></small></span>
+                                </div>
+                                
+                              </div>
+                              <div class="col-lg-6">
+                                <div class="form-group">
+                                  <label for="fatheroc">Father's Occupation</label>
+                                  <div class="input-group">
+                                    <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABeUlEQVR4nOWVzStEURjGf0Q+ElEshGRjT6T8A3ZW1jaUQjZioUSxtJAsfJRmQ9GUsrBQtiyUFbJWIzMSxVhwZ3Tqmel2OubOuHfnqbfT+7zn/uacd849F/6DqoBWjZGpBtgEPoCsxg2gOgr4rqBp4Ab4VL4TFtwOeEAS6JBnxpT8tjDwIa0yZvkx+ab+Z/UKcmH5l/J7wsArgVuBDoEp4Ei56X8FIdUPPAuYi5T8SNQEjAOrwBjQKH8QmAXmVa+P6geHgYy1oyugLAr4toB7WvmDcvMWF6VyoA8YBRb0Zm4p7gU7VZ5Uvg8sqpVODWhFT9a2S4lzG1oHHPgmeDrTa8AMEJdvroSRAvEGfNvwYz38AswBzVZ9SfXJgHbmWpRXi4yEA2rDl33eCnAGdPt2n7bhnTLedaRckdAcs+Vrea/y7qw5Tni2iPAK1DK+85+XuSe6AmJdD03r6nXNaXD1vBhN+L5G5k//LczKTXtKUi1wAnwFtO3RXA8/CTOiDyqDprMAAAAASUVORK5CYII="></span>
+                                  
+                                  <input type="text" name="fatheroc" id="fatheroc1" placeholder="Eg : Farmer,driver,Ex-Army" class="form-control"> 
+                                </div>
+                                <small class="error error55"></small>
+                                
+                                </div>
+                              </div>
+                              <div class="col-lg-6">
+                                <div class="form-group">
+                                  <label for="motheroc">Mother's Occupation</label>
+                                  <div class="input-group">
+                                    <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABeUlEQVR4nOWVzStEURjGf0Q+ElEshGRjT6T8A3ZW1jaUQjZioUSxtJAsfJRmQ9GUsrBQtiyUFbJWIzMSxVhwZ3Tqmel2OubOuHfnqbfT+7zn/uacd849F/6DqoBWjZGpBtgEPoCsxg2gOgr4rqBp4Ab4VL4TFtwOeEAS6JBnxpT8tjDwIa0yZvkx+ab+Z/UKcmH5l/J7wsArgVuBDoEp4Ei56X8FIdUPPAuYi5T8SNQEjAOrwBjQKH8QmAXmVa+P6geHgYy1oyugLAr4toB7WvmDcvMWF6VyoA8YBRb0Zm4p7gU7VZ5Uvg8sqpVODWhFT9a2S4lzG1oHHPgmeDrTa8AMEJdvroSRAvEGfNvwYz38AswBzVZ9SfXJgHbmWpRXi4yEA2rDl33eCnAGdPt2n7bhnTLedaRckdAcs+Vrea/y7qw5Tni2iPAK1DK+85+XuSe6AmJdD03r6nXNaXD1vBhN+L5G5k//LczKTXtKUi1wAnwFtO3RXA8/CTOiDyqDprMAAAAASUVORK5CYII="></span>
+                                  
+                                  <input type="text" name="motheroc" id="motheroc1" placeholder="Eg : Home Maker" class="form-control"> 
+                                  </div>
+                                  <small class="error error56"></small>
+                                </div>
+                              </div>
+                              <div class="col-lg-6">
+                                <div class="form-group">
+                                  <label for="parent">Father's Mobile Number</label>
+                                  <div class="input-group">
+                                    <span class="input-group-text" id="basic-addon8"><i class="fa-solid fa-mobile fa-lg"></i></span>
+                                    <input type="tel" name="fmobile" id="fmobile" placeholder="Eg : 97XXXXXXX5" class="form-control"> </div>
+                                    <small class="error error57"></small>
+                                </div>
+                                
+                              </div>
+                              <div class="col-lg-6">
+                                <div class="form-group">
+                                  <label for="parent">Mother's Mobile Number</label>
+                                  <div class="input-group">
+                                    <span class="input-group-text" id="basic-addon8"><i class="fa-solid fa-mobile fa-lg"></i></span>
+                                    <input type="tel" name="mmobile" id="mmobile" placeholder="Eg : 97XXXXXXX5" class="form-control"> </div>
+                                    <small class="error error511"></small>
+                                </div>
+                                
+                              </div>
+                              <div class="col-lg-6">
+                                <div class="form-group">
+                                  <label for="community">Community</label>
+                                  <div class="input-group">
+                                    <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABL0lEQVR4nO2Tvy6DURjGf/7EoAazRJgYaEhEGLgDdKjegY4NV2BrjAg7V0HEYGRnxw2IWJAOX/PGc5rX8Z3EV10kfZI3J+d5zvNLe3oKff1RQ8Ck1p5qF3gDMq2NXoFrgsazXRRkX3sNGHXeZQJ+4c6UgHX1c1UHWio+AVPy7xJw803TwLM86+/E4EF3p5nmRNlBAt5Ufhr5r+J1NAJ8RofOlI3lfPpbXYXpPMo+xPumI3fgHVhx2TBQBfa12j5oVcDQPcy78wFgE9gDZiimWfU2CvYYByp6602tFfm/1qKeU5ABbtwLiqelfKvT+OovuD0TwLUKc/KOE8DU2O9lmtf+SlweZLy4d5t1MdZDHNvf48JHhctdwq2HOMH7x/AlTVlhyXlFJvxjy87rix9qAxBUsTeB3+WNAAAAAElFTkSuQmCC"></span>
+                                  
+                                  <select class="form-select  community" aria-label="Default select example" name="community">
+                                    <option value="">Select you Community</option>
+                                    <option value="Backward Class (BC)">Backward Class (BC)</option>
+                                    <option value="Forward Class (FC)">Forward Class (FC)</option>
+                                    <option value="Scheduled Castes (SC)">Scheduled Castes (SC)</option>
+                                    <option value="Backward Class Muslims (BCM)">Backward Class Muslims (BCM)</option>
+                                    <option value="Most Backward Class (MBC)">Most Backward Class (MBC)</option>
+                                    <option value="Scheduled Tribes (ST)">Scheduled Tribes (ST)</option>
+                                    <option value="Denotified Communities (DC)">Denotified Communities (DC)</option>
+                                    <option value="Other Than Backward Class Muslims (OBCM)">Other Than Backward Class Muslims (OBCM)</option>
+                                    <option value="Scheduled Castes (SC(A))">Scheduled Castes (SC(A))</option>
+                                  </select> 
+                                </div>
+                                <small class="error error58"></small>
+                              </div>
+                              </div>
+                              <div class="col-lg-6">
+                                <label for="hos">Hosteller/Dayscholar</label>
+                                <div class="form-group font-weight-normal">
+                                  <div class="form-check">
+                                    <input class="form-check-input hos" type="radio" name="day" id="hostel1" value="HOSTELLER">
+                                    <label class="form-check-label" for="hostel1">
+                                      HOSTELLER
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input hos" type="radio" name="day" id="day2"  value="DAYSCHOLAR">
+                                    <label class="form-check-label" for="day2">
+                                      DAYSCHOLAR
+                                    </label>
+                                  </div>
+                                  <small class="error error59"></small>
+                                </div>
+                              </div>
+                              <div class="col-lg-6">
+                                <div class="form-group">
+                                  <label for="cutoff">Cutoff Mark</label>
+                                  <div class="input-group">
+                                    <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABC0lEQVR4nM2VsUrDUBiFvyUWOrSGQBeHiEPHinaWUujmW4j4GC4upa/RzblbX8PVsYOFFnTsErlwIj/Xm5rcIuTAGXLu+T9ubkICf+sMSAN2eSNlwJWcC7IHioB3Ws/NjJsP6hI4mOENMKoAlx6pV14fxPmlO29wEwEvxDkKv9btngPbCvCH1nP1a8P7Jk8qHqjLS/Vj4XXUGJ4AY883pj9UlsTAM2DteWX6C2VZ646lCzx5fjD9e2XdGHgPmHt+Mf1HZb3WHUsKvHpemv6zsjQG3gFmnqemf6us07pjGQDvnt9Mf6ls0Lqd/xt8EviuHPOkCbw4wUH4BfB1IvhTnKDcOxv6MdS1m//RN4rvt3fjfRyVAAAAAElFTkSuQmCC"></span>
+                                  
+                                  <input type="number" name="cutoff" id="cutoff1" class="form-control" placeholder="Eg : 175">
+                                </div>
+                                <small class="error error60"></small>
+                                </div>
+                              </div>
+                              <div class="col-lg-6">
+                                
+                                <div class="form-group">
+                                  <label for="admission">Mode Of Admission</label>
+                                  <div class="form-check font-weight-normal">
+                                    <input class="form-check-input mode" type="radio" name="mode" id="mode1"  value="COUNSELLING">
+                                    <label class="form-check-label" for="mode1">
+                                      COUNSELLING
+                                    </label>
+                                  </div>
+                                  <div class="form-check font-weight-normal">
+                                    <input class="form-check-input mode" type="radio" name="mode" id="mode2"  value="MANAGEMENT">
+                                    <label class="form-check-label" for="mode2">
+                                      MANAGEMENT
+                                    </label>
+                                  </div>
+                                  <small class="error error61"></small>
+                                </div>
+                              </div>
+                              <div class="col-lg-6">
+                              <div class="form-group">
+                                 <label for="gra">First Graduate</label>
+                                <div class="form-check font-weight-normal">
+                                  <input class="form-check-input gra" type="radio" name="grad" id="gra1" value="YES">
+                                  <label class="form-check-label" for="gra1">
+                                    YES
+                                  </label>
+                                </div>
+                                <div class="form-check font-weight-normal">
+                                  <input class="form-check-input gra" type="radio" name="grad" id="gra2" value="NO">
+                                  <label class="form-check-label" for="gra2">
+                                    NO
+                                  </label>
+                                </div>
+                                <small class="error error62"></small>
+                              </div>
+                            </div>
+                          
+                          <div class="col-lg-6">
+                            <div class="form-group">
+                              <label for="blood">Blood Group</label>
+                              <div class="input-group">
+                                <span class="input-group-text" id="basic-addon9"><i class="fa-solid fa-droplet fa-lg"></i>
+                                </span>
+                                <select class="form-select blood" aria-label="Default select example" name="blood">
+                                  <option value="">Select Your BloodGroup</option>
+                                  <option value="A +ve">A +ve</option>
+                                  <option value="A -ve">A -ve</option>
+                                  <option value="B +ve">B +ve</option>
+                                  <option value="B -ve">B -ve</option>
+                                  <option value="O +ve">O +ve</option>
+                                  <option value="O -ve">O -ve</option>
+                                  <option value="AB +ve">AB +ve</option>
+                                  <option value="AB -ve">AB -ve</option>
+                                  <option value="K +ve">K +ve</option>
+                                </select> 
+                                
+                              </div>
+                              <small class="error error63"></small>
+                            </div>
+                          </div>
+                          <div class="col-lg-6">
+                            <div class="form-group">
+                               <label for="pla">Regesiter For Placement</label>
+                              <div class="form-check font-weight-normal">
+                                <input class="form-check-input" type="radio" name="pla" id="pla1" value="YES">
+                                <label class="form-check-label" for="pla1">
+                                  YES
+                                </label>
+                              </div>
+                              <div class="form-check font-weight-normal">
+                                <input class="form-check-input" type="radio" name="pla" id="pla2"  value="NO">
+                                <label class="form-check-label" for="pla2">
+                                  NO
+                                </label>
+                              </div>
+                              <small class="error"></small>
+                            </div>
+                          </div>
+                          
+                          <div class="col-lg-6">
+                            <div class="form-group">
+                              <label for="pass">Passport Details</label>
+                              <div class="input-group">
+                                <span class="input-group-text" id="basic-addon9"><i class="fa-solid fa-plane fa-lg"></i>
+                                </span>
+                                <input type="text" name="passport" id="pass1" placeholder="Enter your Passport Details" class="form-control"> </div>
+                                <small class="error"></small>
+                            </div>
+
+                          </div>
+                          <div class="col-lg-6">
+                            <div class="form-group">
+                              <label for="aadhar">Aadhaar Details</label>
+                              <div class="input-group">
+                                <span class="input-group-text"><i class="fa-regular fa-address-card fa-lg"></i></span>
+                                <input type="number" name="aadhaar" id="aadhar1" class="form-control" placeholder="Eg : XXXXXXXXXXXX">
+                              </div>
+                              <small class="error error64"></small>
+                            </div>
+                          </div>
+                          <div class="col-lg-6">
+                            <div class="form-group">
+                              <label for="pan">Pan Card </label>
+                              <div class="input-group">
+                                <span class="input-group-text"><i class="fa-regular fa-credit-card fa-lg"></i></span>
+                              <input type="number" name="pan" id="pan1" class="form-control" placeholder="Enter Your Pan Card Number">
+                            </div>
+                            <small class="error"></small>
+                            </div>
+                          </div>
+                          <div class="col-lg-6">
+                            <div class="form-group">
+                              <label for="rat">Ration Card </label>
+                              <div class="input-group">
+                                <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABBklEQVR4nOWUsWoCQRCGv0JQuMpG8w528RV8m4BdEAmaNpyQysZXSCXYWIRUwerKpBAsrrQSDgJ3jW44mANd3Ns93ULwh58pZua/5b+ZgRtBA2hK9I5nQEmsjAegW8IhEEksq8t1TvAKHORlysBQakNLXa4zLoRrQGZpUMAH0JNoq81El8ChWF3AoEz8D1gCsW/xFOiIbXVgpeW/gdkZ7lzEI+2HD7T8k2HiflzEE6B11LTQ8nP5oM6tq+cx8A58+fZ8DUyBF2ACfAJ7Hy/vG/x8PGq+yPONoanA2zXTksgGmvjra4mUjw11vS2qAtPitiBXzHYVlSNznVHVe951ZNsyFNw5/gFaMgvxYFxepAAAAABJRU5ErkJggg=="></span>
+                                <input type="number" name="ration" id="rat1" class="form-control" placeholder="Enter Your Ration Card Number">
+                              </div>
+                              <small class="error error65"></small>
+                            </div>
+                          </div>
+                          <div class="col-lg-6">
+                            <div class="form-group">
+                              <label for="an">Annual Income</label>
+                              <div class="input-group">
+                                <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB5ElEQVR4nLXWzatNURgG8J8jH7m6vg6hGzGRj2ukFEJSSgb+AFOu5A4YyES5SYwkMRBmpCSUiSKZuPkaUK7kI18hQhkaiN56j07bPufsjjy12nu/a73PWutZz7v3pjrG+E9Yiw8YQX/G6ujthqyGHTiOi3iJxTnJa7zHJzzshrwfP7EzCfuwBdOyf0lOGJN3hZN4mhPE9ULKMoRv+I4Z3ZKPxi3cwMqMrcYe7McJ/4j1uFYSP4pB7MMLfMSjlLAy6nl4ccANjMd5/MCvlOwgVmFuFdIatuE57uANbqZMb3E25QriAezFsyq1MBFXcSldEhiLRZif9w0sw30cwaxOxJF4HQcwqsoWMQ7nUqpm+f7CIZxuep6S9gtPf8HXvA8J5hScdTldVIoFefI9hXhfyrEi9d5QIG5gclbvwjLyU9haiMXKh/EgW2Pld1tMsB1nisFaWq63JL4m/R6J7zC71dYxqcS6ZuJxyeCp+JwFciwd0wkjRefMy62WYTlepe5VcC/5/qAnCVphM540vRXbIQpuQjE43PQhKMNg1kA7LMXtso5NKU29Q3IrTE9JNrYaMJBePox1eaDtEDLFuBgfeUUrl65gN65kUYW3IzH83WjxHPHoj3G7Mq8rxNsuCqrRKv0J/AZE+2aGNwBYlwAAAABJRU5ErkJggg=="></span>
+                                <input type="number" name="annual" id="an1" class="form-control" placeholder="Enter The Annual Income">
+                              </div>
+                              <small class="error error66"></small>
+                            </div>
+                          </div>
+                          <div class="col-lg-6">
+                            <div class="input-group">
+                              <label for="sib">Siblings</label>
+                              <div class="input-group">
+                                <span class="input-group-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABvElEQVR4nLXWTagPYRTH8Q8ibyXcHTdRyJKFcKMkJGJpIaVEiZQoSq7odu2u3IhQrpeyskRZeyk75Z1/UUrKgo21njr/ehozj7n1v796mjnNmW9nzu/MM0OzpmCmCdBRdPAGDzCrV+BVeIoZEZ/B+V7BD+BUFi/D417BV1YqH2yoPHlyEk9wDtPG2/PX0fM6Yw/jNpbgEs7+D9qPI1HR6ag4nZ/AQCX3Dta1bd08vMdxHKysQ3iOXVn+XjzCetzHsRJ8Gy5ncXrc3Vm8ETcr9+zBWBQwuQRPVY1k8VT0ZfFAtCJpGB/Dl+76jCuY1Aa+PEyrwlfgBaZnRXSPD7GhBN8Uxs4Oo5L2ZfBk4t3svovZ+UjFl3/go9iOBdgS1zoFuDbwrbiVwXMl+A5cz+BXY/67QzBWgqfEl/hZA/+NL1iDtbgXufMrBaQW7VTQjRr418y4vgD9qMB/4RMWl+CjDW3J1R+jmMO/x7uhDXw1hhrgsrYsLOQ0wjfjWgv4h4mEd8YDv4D9GTwZ+LYm71n0PkHTpHWfoKilsU+8wreYlPSGVpW+WGk6/uBdbM2tlHa4ReF+6Q9gTuTMrbv6F6syaMew7WjLAAAAAElFTkSuQmCC"></span>
+                                <input type="text" name="sibling" id="sib1" placeholder="Enter your Sibling Details" class="form-control"> 
+                              </div>
+                              <small class="error error67"></small>
+                            </div>
+                           
+                            </div> 
+                          </div> 
+                          <div class="alert alert-dismissible alert-danger mt-5">
+                              <button  type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                             <div class="card">
+                              <div class="card-header text-danger">
+                                  <h2>Alert</h2>
+                              </div>
+                              <div class="card-body text-danger">
+                                  <p>Please Check Your Details Correctly Entered or Not.</p>
+                                  <h5>If the page is not submitted, your details may be empty or filled out incorrectly</h5>
+                              </div>
+
+                             </div>
+                          </div>
+                          <div class="col-lg-12 text-center mt-3">
+                          
+                            <button class="btn btn-primary" type="button" id="kamal">Submit</button>
+                            <button class="btn btn-danger" type="reset" id="kamal1">Reset</button>
+                          </div>
+                          
+                            
+                         
+                         
+                        
+            </form>  
+      </div>
+      
+</div>
+</body>
+</html>

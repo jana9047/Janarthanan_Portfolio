@@ -1,0 +1,393 @@
+2024-09-13 11:49:08,944 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-13 11:49:08,945 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-13 11:49:08,948 - INFO -  * Restarting with stat
+2024-09-13 11:49:09,224 - WARNING -  * Debugger is active!
+2024-09-13 11:49:09,230 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 11:51:52,393 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 11:51:52,432 - INFO -  * Restarting with stat
+2024-09-13 11:51:52,699 - WARNING -  * Debugger is active!
+2024-09-13 11:51:52,709 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 11:51:53,287 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 11:51:53,323 - INFO -  * Restarting with stat
+2024-09-13 11:51:53,601 - WARNING -  * Debugger is active!
+2024-09-13 11:51:53,601 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 11:51:57,708 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 11:51:57,754 - INFO -  * Restarting with stat
+2024-09-13 11:51:57,824 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 11:51:57,872 - INFO -  * Restarting with stat
+2024-09-13 11:51:58,038 - WARNING -  * Debugger is active!
+2024-09-13 11:51:58,048 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 11:51:58,144 - WARNING -  * Debugger is active!
+2024-09-13 11:51:58,150 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 11:52:32,049 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-13 11:52:32,049 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-13 11:52:32,054 - INFO -  * Restarting with stat
+2024-09-13 11:52:32,318 - WARNING -  * Debugger is active!
+2024-09-13 11:52:32,324 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 11:59:15,891 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 11:59:15,924 - INFO -  * Restarting with stat
+2024-09-13 11:59:16,207 - WARNING -  * Debugger is active!
+2024-09-13 11:59:16,207 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 11:59:16,577 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 11:59:16,625 - INFO -  * Restarting with stat
+2024-09-13 11:59:16,698 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 11:59:16,751 - INFO -  * Restarting with stat
+2024-09-13 11:59:16,916 - WARNING -  * Debugger is active!
+2024-09-13 11:59:16,923 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 11:59:17,049 - WARNING -  * Debugger is active!
+2024-09-13 11:59:17,055 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 11:59:22,040 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 11:59:22,080 - INFO -  * Restarting with stat
+2024-09-13 11:59:22,181 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 11:59:22,220 - INFO -  * Restarting with stat
+2024-09-13 11:59:22,340 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 11:59:22,361 - WARNING -  * Debugger is active!
+2024-09-13 11:59:22,371 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 11:59:22,391 - INFO -  * Restarting with stat
+2024-09-13 11:59:22,501 - WARNING -  * Debugger is active!
+2024-09-13 11:59:22,509 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 11:59:22,652 - WARNING -  * Debugger is active!
+2024-09-13 11:59:22,662 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 11:59:23,423 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 11:59:23,469 - INFO -  * Restarting with stat
+2024-09-13 11:59:23,563 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 11:59:23,651 - INFO -  * Restarting with stat
+2024-09-13 11:59:23,709 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 11:59:23,778 - WARNING -  * Debugger is active!
+2024-09-13 11:59:23,783 - INFO -  * Restarting with stat
+2024-09-13 11:59:23,786 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 11:59:23,944 - WARNING -  * Debugger is active!
+2024-09-13 11:59:23,951 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 11:59:24,069 - WARNING -  * Debugger is active!
+2024-09-13 11:59:24,077 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 11:59:41,973 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-13 11:59:41,974 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-13 11:59:41,979 - INFO -  * Restarting with stat
+2024-09-13 11:59:42,277 - WARNING -  * Debugger is active!
+2024-09-13 11:59:42,283 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 12:00:26,876 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 12:00:26,918 - INFO -  * Restarting with stat
+2024-09-13 12:00:27,088 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 12:00:27,088 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 12:00:27,148 - INFO -  * Restarting with stat
+2024-09-13 12:00:27,148 - INFO -  * Restarting with stat
+2024-09-13 12:00:27,228 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 12:00:27,232 - WARNING -  * Debugger is active!
+2024-09-13 12:00:27,239 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 12:00:27,302 - INFO -  * Restarting with stat
+2024-09-13 12:00:27,453 - WARNING -  * Debugger is active!
+2024-09-13 12:00:27,463 - WARNING -  * Debugger is active!
+2024-09-13 12:00:27,463 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 12:00:27,463 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 12:00:27,575 - WARNING -  * Debugger is active!
+2024-09-13 12:00:27,575 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 12:00:37,459 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 12:00:37,496 - INFO -  * Restarting with stat
+2024-09-13 12:00:37,686 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 12:00:37,686 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 12:00:37,742 - INFO -  * Restarting with stat
+2024-09-13 12:00:37,744 - INFO -  * Restarting with stat
+2024-09-13 12:00:37,778 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 12:00:37,797 - WARNING -  * Debugger is active!
+2024-09-13 12:00:37,804 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 12:00:37,834 - INFO -  * Restarting with stat
+2024-09-13 12:00:38,030 - WARNING -  * Debugger is active!
+2024-09-13 12:00:38,032 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 12:00:38,047 - WARNING -  * Debugger is active!
+2024-09-13 12:00:38,053 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 12:00:38,120 - WARNING -  * Debugger is active!
+2024-09-13 12:00:38,123 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 12:00:39,872 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 12:00:39,912 - INFO -  * Restarting with stat
+2024-09-13 12:00:40,109 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 12:00:40,116 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 12:00:40,146 - INFO -  * Restarting with stat
+2024-09-13 12:00:40,173 - INFO -  * Restarting with stat
+2024-09-13 12:00:40,196 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 12:00:40,197 - WARNING -  * Debugger is active!
+2024-09-13 12:00:40,205 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 12:00:40,246 - INFO -  * Restarting with stat
+2024-09-13 12:00:40,438 - WARNING -  * Debugger is active!
+2024-09-13 12:00:40,438 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 12:00:40,459 - WARNING -  * Debugger is active!
+2024-09-13 12:00:40,460 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 12:00:40,530 - WARNING -  * Debugger is active!
+2024-09-13 12:00:40,540 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 12:01:25,993 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 12:01:26,030 - INFO -  * Restarting with stat
+2024-09-13 12:01:26,288 - WARNING -  * Debugger is active!
+2024-09-13 12:01:26,294 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 12:01:26,304 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 12:01:26,310 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 12:01:26,310 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 12:01:26,352 - INFO -  * Restarting with stat
+2024-09-13 12:01:26,364 - INFO -  * Restarting with stat
+2024-09-13 12:01:26,364 - INFO -  * Restarting with stat
+2024-09-13 12:01:26,640 - WARNING -  * Debugger is active!
+2024-09-13 12:01:26,646 - WARNING -  * Debugger is active!
+2024-09-13 12:01:26,646 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 12:01:26,653 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 12:01:26,659 - WARNING -  * Debugger is active!
+2024-09-13 12:01:26,665 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 12:01:28,361 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 12:01:28,397 - INFO -  * Restarting with stat
+2024-09-13 12:01:28,670 - WARNING -  * Debugger is active!
+2024-09-13 12:01:28,675 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 12:01:28,717 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 12:01:28,723 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 12:01:28,725 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 12:01:28,782 - INFO -  * Restarting with stat
+2024-09-13 12:01:28,782 - INFO -  * Restarting with stat
+2024-09-13 12:01:28,794 - INFO -  * Restarting with stat
+2024-09-13 12:01:29,085 - WARNING -  * Debugger is active!
+2024-09-13 12:01:29,085 - WARNING -  * Debugger is active!
+2024-09-13 12:01:29,092 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 12:01:29,092 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 12:01:29,093 - WARNING -  * Debugger is active!
+2024-09-13 12:01:29,099 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 12:01:30,739 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 12:01:30,776 - INFO -  * Restarting with stat
+2024-09-13 12:01:31,037 - WARNING -  * Debugger is active!
+2024-09-13 12:01:31,043 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 12:01:31,165 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 12:01:31,167 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 12:01:31,169 - INFO -  * Detected change in 'd:\\Student_details_source\\kamal.py', reloading
+2024-09-13 12:01:31,218 - INFO -  * Restarting with stat
+2024-09-13 12:01:31,230 - INFO -  * Restarting with stat
+2024-09-13 12:01:31,232 - INFO -  * Restarting with stat
+2024-09-13 12:01:31,496 - WARNING -  * Debugger is active!
+2024-09-13 12:01:31,502 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 12:01:31,510 - WARNING -  * Debugger is active!
+2024-09-13 12:01:31,516 - INFO -  * Debugger PIN: 896-094-137
+2024-09-13 12:01:31,522 - WARNING -  * Debugger is active!
+2024-09-13 12:01:31,530 - INFO -  * Debugger PIN: 896-094-137
+2024-09-23 19:42:48,536 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-23 19:42:48,537 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-23 19:42:48,557 - INFO -  * Restarting with stat
+2024-09-23 19:42:49,036 - WARNING -  * Debugger is active!
+2024-09-23 19:42:49,051 - INFO -  * Debugger PIN: 121-780-818
+2024-09-23 19:43:03,464 - INFO - 127.0.0.1 - - [23/Sep/2024 19:43:03] "GET / HTTP/1.1" 200 -
+2024-09-23 19:43:03,792 - INFO - 127.0.0.1 - - [23/Sep/2024 19:43:03] "GET /static/project1.css HTTP/1.1" 200 -
+2024-09-23 19:43:03,877 - INFO - 127.0.0.1 - - [23/Sep/2024 19:43:03] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-09-23 19:43:04,099 - INFO - 127.0.0.1 - - [23/Sep/2024 19:43:04] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2024-09-23 19:43:04,131 - INFO - 127.0.0.1 - - [23/Sep/2024 19:43:04] "GET /static/project1.js HTTP/1.1" 200 -
+2024-09-23 19:43:04,163 - INFO - 127.0.0.1 - - [23/Sep/2024 19:43:04] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2024-09-23 19:43:04,166 - INFO - 127.0.0.1 - - [23/Sep/2024 19:43:04] "GET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1" 200 -
+2024-09-23 19:43:04,525 - INFO - 127.0.0.1 - - [23/Sep/2024 19:43:04] "[33mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 404 -
+2024-09-23 19:43:06,334 - INFO - 127.0.0.1 - - [23/Sep/2024 19:43:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-09-23 19:43:15,137 - INFO - 127.0.0.1 - - [23/Sep/2024 19:43:15] "GET / HTTP/1.1" 200 -
+2024-09-23 19:43:15,182 - INFO - 127.0.0.1 - - [23/Sep/2024 19:43:15] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+2024-09-23 19:43:15,186 - INFO - 127.0.0.1 - - [23/Sep/2024 19:43:15] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-23 19:43:15,188 - INFO - 127.0.0.1 - - [23/Sep/2024 19:43:15] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-23 19:43:15,188 - INFO - 127.0.0.1 - - [23/Sep/2024 19:43:15] "[36mGET /static/project1.css HTTP/1.1[0m" 304 -
+2024-09-23 19:43:15,199 - INFO - 127.0.0.1 - - [23/Sep/2024 19:43:15] "[36mGET /static/project1.js HTTP/1.1[0m" 304 -
+2024-09-23 19:43:15,201 - INFO - 127.0.0.1 - - [23/Sep/2024 19:43:15] "[36mGET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1[0m" 304 -
+2024-09-23 19:43:15,264 - INFO - 127.0.0.1 - - [23/Sep/2024 19:43:15] "[33mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 404 -
+2024-09-23 19:45:03,612 - INFO - 127.0.0.1 - - [23/Sep/2024 19:45:03] "GET / HTTP/1.1" 200 -
+2024-09-23 19:45:03,646 - INFO - 127.0.0.1 - - [23/Sep/2024 19:45:03] "[36mGET /static/project1.css HTTP/1.1[0m" 304 -
+2024-09-23 19:45:03,654 - INFO - 127.0.0.1 - - [23/Sep/2024 19:45:03] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-23 19:45:03,656 - INFO - 127.0.0.1 - - [23/Sep/2024 19:45:03] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-23 19:45:03,660 - INFO - 127.0.0.1 - - [23/Sep/2024 19:45:03] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+2024-09-23 19:45:03,667 - INFO - 127.0.0.1 - - [23/Sep/2024 19:45:03] "[36mGET /static/project1.js HTTP/1.1[0m" 304 -
+2024-09-23 19:45:03,678 - INFO - 127.0.0.1 - - [23/Sep/2024 19:45:03] "[36mGET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1[0m" 304 -
+2024-09-23 19:45:04,469 - INFO - 127.0.0.1 - - [23/Sep/2024 19:45:04] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-23 19:45:20,667 - INFO - 127.0.0.1 - - [23/Sep/2024 19:45:20] "GET / HTTP/1.1" 200 -
+2024-09-23 19:45:20,714 - INFO - 127.0.0.1 - - [23/Sep/2024 19:45:20] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-23 19:45:20,715 - INFO - 127.0.0.1 - - [23/Sep/2024 19:45:20] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-23 19:45:20,716 - INFO - 127.0.0.1 - - [23/Sep/2024 19:45:20] "[36mGET /static/project1.css HTTP/1.1[0m" 304 -
+2024-09-23 19:45:20,716 - INFO - 127.0.0.1 - - [23/Sep/2024 19:45:20] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+2024-09-23 19:45:20,718 - INFO - 127.0.0.1 - - [23/Sep/2024 19:45:20] "[36mGET /static/project1.js HTTP/1.1[0m" 304 -
+2024-09-23 19:45:20,729 - INFO - 127.0.0.1 - - [23/Sep/2024 19:45:20] "[36mGET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1[0m" 304 -
+2024-09-23 19:45:20,790 - INFO - 127.0.0.1 - - [23/Sep/2024 19:45:20] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-23 19:45:20,796 - INFO - 127.0.0.1 - - [23/Sep/2024 19:45:20] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-23 19:45:37,239 - INFO - 127.0.0.1 - - [23/Sep/2024 19:45:37] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-23 19:45:40,905 - INFO - 127.0.0.1 - - [23/Sep/2024 19:45:40] "GET / HTTP/1.1" 200 -
+2024-09-23 19:45:40,930 - INFO - 127.0.0.1 - - [23/Sep/2024 19:45:40] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-23 19:45:40,931 - INFO - 127.0.0.1 - - [23/Sep/2024 19:45:40] "[36mGET /static/project1.css HTTP/1.1[0m" 304 -
+2024-09-23 19:45:40,931 - INFO - 127.0.0.1 - - [23/Sep/2024 19:45:40] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-23 19:45:40,931 - INFO - 127.0.0.1 - - [23/Sep/2024 19:45:40] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+2024-09-23 19:45:40,932 - INFO - 127.0.0.1 - - [23/Sep/2024 19:45:40] "[36mGET /static/project1.js HTTP/1.1[0m" 304 -
+2024-09-23 19:45:40,939 - INFO - 127.0.0.1 - - [23/Sep/2024 19:45:40] "[36mGET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1[0m" 304 -
+2024-09-23 19:45:40,957 - INFO - 127.0.0.1 - - [23/Sep/2024 19:45:40] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-23 19:46:04,558 - INFO - 127.0.0.1 - - [23/Sep/2024 19:46:04] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-23 19:46:04,562 - INFO - 127.0.0.1 - - [23/Sep/2024 19:46:04] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-23 19:46:44,475 - INFO - 127.0.0.1 - - [23/Sep/2024 19:46:44] "GET / HTTP/1.1" 200 -
+2024-09-23 19:46:44,533 - INFO - 127.0.0.1 - - [23/Sep/2024 19:46:44] "[36mGET /static/project1.css HTTP/1.1[0m" 304 -
+2024-09-23 19:46:44,536 - INFO - 127.0.0.1 - - [23/Sep/2024 19:46:44] "[36mGET /static/project1.js HTTP/1.1[0m" 304 -
+2024-09-23 19:46:44,537 - INFO - 127.0.0.1 - - [23/Sep/2024 19:46:44] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-23 19:46:44,537 - INFO - 127.0.0.1 - - [23/Sep/2024 19:46:44] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-23 19:46:44,537 - INFO - 127.0.0.1 - - [23/Sep/2024 19:46:44] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+2024-09-23 19:46:44,548 - INFO - 127.0.0.1 - - [23/Sep/2024 19:46:44] "[36mGET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1[0m" 304 -
+2024-09-23 19:46:45,717 - INFO - 127.0.0.1 - - [23/Sep/2024 19:46:45] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-23 19:48:04,843 - INFO - 127.0.0.1 - - [23/Sep/2024 19:48:04] "GET / HTTP/1.1" 200 -
+2024-09-23 19:48:04,887 - INFO - 127.0.0.1 - - [23/Sep/2024 19:48:04] "[36mGET /static/project1.css HTTP/1.1[0m" 304 -
+2024-09-23 19:48:04,905 - INFO - 127.0.0.1 - - [23/Sep/2024 19:48:04] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-23 19:48:04,906 - INFO - 127.0.0.1 - - [23/Sep/2024 19:48:04] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+2024-09-23 19:48:04,907 - INFO - 127.0.0.1 - - [23/Sep/2024 19:48:04] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-23 19:48:04,916 - INFO - 127.0.0.1 - - [23/Sep/2024 19:48:04] "[36mGET /static/project1.js HTTP/1.1[0m" 304 -
+2024-09-23 19:48:04,917 - INFO - 127.0.0.1 - - [23/Sep/2024 19:48:04] "[36mGET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1[0m" 304 -
+2024-09-23 19:48:04,976 - INFO - 127.0.0.1 - - [23/Sep/2024 19:48:04] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-23 19:48:04,987 - INFO - 127.0.0.1 - - [23/Sep/2024 19:48:04] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-23 19:48:18,926 - INFO - 127.0.0.1 - - [23/Sep/2024 19:48:18] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-23 19:48:25,297 - INFO - 127.0.0.1 - - [23/Sep/2024 19:48:25] "GET / HTTP/1.1" 200 -
+2024-09-23 19:48:25,347 - INFO - 127.0.0.1 - - [23/Sep/2024 19:48:25] "[36mGET /static/project1.css HTTP/1.1[0m" 304 -
+2024-09-23 19:48:25,351 - INFO - 127.0.0.1 - - [23/Sep/2024 19:48:25] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+2024-09-23 19:48:25,351 - INFO - 127.0.0.1 - - [23/Sep/2024 19:48:25] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-23 19:48:25,354 - INFO - 127.0.0.1 - - [23/Sep/2024 19:48:25] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-23 19:48:25,358 - INFO - 127.0.0.1 - - [23/Sep/2024 19:48:25] "[36mGET /static/project1.js HTTP/1.1[0m" 304 -
+2024-09-23 19:48:25,361 - INFO - 127.0.0.1 - - [23/Sep/2024 19:48:25] "[36mGET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1[0m" 304 -
+2024-09-23 19:48:25,393 - INFO - 127.0.0.1 - - [23/Sep/2024 19:48:25] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-23 19:48:48,327 - INFO - 127.0.0.1 - - [23/Sep/2024 19:48:48] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-23 19:48:48,331 - INFO - 127.0.0.1 - - [23/Sep/2024 19:48:48] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-23 19:50:04,314 - INFO - 127.0.0.1 - - [23/Sep/2024 19:50:04] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-23 19:50:04,373 - INFO - 127.0.0.1 - - [23/Sep/2024 19:50:04] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-23 19:50:05,231 - INFO - 127.0.0.1 - - [23/Sep/2024 19:50:05] "GET / HTTP/1.1" 200 -
+2024-09-23 19:50:05,309 - INFO - 127.0.0.1 - - [23/Sep/2024 19:50:05] "[36mGET /static/project1.css HTTP/1.1[0m" 304 -
+2024-09-23 19:50:05,310 - INFO - 127.0.0.1 - - [23/Sep/2024 19:50:05] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-23 19:50:05,311 - INFO - 127.0.0.1 - - [23/Sep/2024 19:50:05] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+2024-09-23 19:50:05,318 - INFO - 127.0.0.1 - - [23/Sep/2024 19:50:05] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-23 19:50:05,325 - INFO - 127.0.0.1 - - [23/Sep/2024 19:50:05] "[36mGET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1[0m" 304 -
+2024-09-23 19:50:05,356 - INFO - 127.0.0.1 - - [23/Sep/2024 19:50:05] "GET /static/project1.js HTTP/1.1" 200 -
+2024-09-23 19:50:06,074 - INFO - 127.0.0.1 - - [23/Sep/2024 19:50:06] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-23 19:50:12,051 - INFO - 127.0.0.1 - - [23/Sep/2024 19:50:12] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-23 20:20:49,749 - INFO - 127.0.0.1 - - [23/Sep/2024 20:20:49] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-23 20:20:49,752 - INFO - 127.0.0.1 - - [23/Sep/2024 20:20:49] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-23 20:20:52,143 - INFO - 127.0.0.1 - - [23/Sep/2024 20:20:52] "GET / HTTP/1.1" 200 -
+2024-09-23 20:20:52,170 - INFO - 127.0.0.1 - - [23/Sep/2024 20:20:52] "[36mGET /static/project1.css HTTP/1.1[0m" 304 -
+2024-09-23 20:20:52,170 - INFO - 127.0.0.1 - - [23/Sep/2024 20:20:52] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-23 20:20:52,200 - INFO - 127.0.0.1 - - [23/Sep/2024 20:20:52] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-23 20:20:52,200 - INFO - 127.0.0.1 - - [23/Sep/2024 20:20:52] "[36mGET /static/project1.js HTTP/1.1[0m" 304 -
+2024-09-23 20:20:52,200 - INFO - 127.0.0.1 - - [23/Sep/2024 20:20:52] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+2024-09-23 20:20:52,210 - INFO - 127.0.0.1 - - [23/Sep/2024 20:20:52] "[36mGET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1[0m" 304 -
+2024-09-23 20:20:53,232 - INFO - 127.0.0.1 - - [23/Sep/2024 20:20:53] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-23 20:21:04,033 - INFO - 127.0.0.1 - - [23/Sep/2024 20:21:04] "GET / HTTP/1.1" 200 -
+2024-09-23 20:21:04,048 - INFO - 127.0.0.1 - - [23/Sep/2024 20:21:04] "[36mGET /static/project1.css HTTP/1.1[0m" 304 -
+2024-09-23 20:21:04,058 - INFO - 127.0.0.1 - - [23/Sep/2024 20:21:04] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+2024-09-23 20:21:04,058 - INFO - 127.0.0.1 - - [23/Sep/2024 20:21:04] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-23 20:21:04,058 - INFO - 127.0.0.1 - - [23/Sep/2024 20:21:04] "[36mGET /static/project1.js HTTP/1.1[0m" 304 -
+2024-09-23 20:21:04,058 - INFO - 127.0.0.1 - - [23/Sep/2024 20:21:04] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-23 20:21:04,058 - INFO - 127.0.0.1 - - [23/Sep/2024 20:21:04] "[36mGET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1[0m" 304 -
+2024-09-23 20:21:26,343 - INFO - 127.0.0.1 - - [23/Sep/2024 20:21:26] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-23 20:21:26,346 - INFO - 127.0.0.1 - - [23/Sep/2024 20:21:26] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-23 21:12:13,863 - INFO - 127.0.0.1 - - [23/Sep/2024 21:12:13] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-23 21:12:15,702 - INFO - 127.0.0.1 - - [23/Sep/2024 21:12:15] "GET / HTTP/1.1" 200 -
+2024-09-23 21:12:15,743 - INFO - 127.0.0.1 - - [23/Sep/2024 21:12:15] "[36mGET /static/project1.css HTTP/1.1[0m" 304 -
+2024-09-23 21:12:15,743 - INFO - 127.0.0.1 - - [23/Sep/2024 21:12:15] "[36mGET /static/project1.js HTTP/1.1[0m" 304 -
+2024-09-23 21:12:15,744 - INFO - 127.0.0.1 - - [23/Sep/2024 21:12:15] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+2024-09-23 21:12:15,744 - INFO - 127.0.0.1 - - [23/Sep/2024 21:12:15] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-23 21:12:15,744 - INFO - 127.0.0.1 - - [23/Sep/2024 21:12:15] "[36mGET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1[0m" 304 -
+2024-09-23 21:12:15,744 - INFO - 127.0.0.1 - - [23/Sep/2024 21:12:15] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-23 21:12:16,744 - INFO - 127.0.0.1 - - [23/Sep/2024 21:12:16] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-24 09:14:56,631 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-24 09:14:56,631 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-24 09:14:56,644 - INFO -  * Restarting with stat
+2024-09-24 09:14:56,952 - WARNING -  * Debugger is active!
+2024-09-24 09:14:56,962 - INFO -  * Debugger PIN: 896-094-137
+2024-09-24 09:15:39,035 - INFO - 127.0.0.1 - - [24/Sep/2024 09:15:39] "GET / HTTP/1.1" 200 -
+2024-09-24 09:15:39,195 - INFO - 127.0.0.1 - - [24/Sep/2024 09:15:39] "[36mGET /static/project1.css HTTP/1.1[0m" 304 -
+2024-09-24 09:15:39,216 - INFO - 127.0.0.1 - - [24/Sep/2024 09:15:39] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-24 09:15:39,308 - INFO - 127.0.0.1 - - [24/Sep/2024 09:15:39] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-24 09:15:39,332 - INFO - 127.0.0.1 - - [24/Sep/2024 09:15:39] "[36mGET /static/project1.js HTTP/1.1[0m" 304 -
+2024-09-24 09:15:39,344 - INFO - 127.0.0.1 - - [24/Sep/2024 09:15:39] "[36mGET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1[0m" 304 -
+2024-09-24 09:15:39,352 - INFO - 127.0.0.1 - - [24/Sep/2024 09:15:39] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+2024-09-24 09:15:42,401 - INFO - 127.0.0.1 - - [24/Sep/2024 09:15:42] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-24 09:15:42,779 - INFO - 127.0.0.1 - - [24/Sep/2024 09:15:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-09-24 09:15:45,274 - INFO - 127.0.0.1 - - [24/Sep/2024 09:15:45] "GET / HTTP/1.1" 200 -
+2024-09-24 09:15:45,298 - INFO - 127.0.0.1 - - [24/Sep/2024 09:15:45] "[36mGET /static/project1.css HTTP/1.1[0m" 304 -
+2024-09-24 09:15:45,299 - INFO - 127.0.0.1 - - [24/Sep/2024 09:15:45] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-24 09:15:45,301 - INFO - 127.0.0.1 - - [24/Sep/2024 09:15:45] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+2024-09-24 09:15:45,304 - INFO - 127.0.0.1 - - [24/Sep/2024 09:15:45] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-24 09:15:45,305 - INFO - 127.0.0.1 - - [24/Sep/2024 09:15:45] "[36mGET /static/project1.js HTTP/1.1[0m" 304 -
+2024-09-24 09:15:45,308 - INFO - 127.0.0.1 - - [24/Sep/2024 09:15:45] "[36mGET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1[0m" 304 -
+2024-09-24 09:15:57,391 - INFO - 127.0.0.1 - - [24/Sep/2024 09:15:57] "GET / HTTP/1.1" 200 -
+2024-09-24 09:15:57,415 - INFO - 127.0.0.1 - - [24/Sep/2024 09:15:57] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-24 09:15:57,415 - INFO - 127.0.0.1 - - [24/Sep/2024 09:15:57] "[36mGET /static/project1.css HTTP/1.1[0m" 304 -
+2024-09-24 09:15:57,420 - INFO - 127.0.0.1 - - [24/Sep/2024 09:15:57] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-24 09:15:57,420 - INFO - 127.0.0.1 - - [24/Sep/2024 09:15:57] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+2024-09-24 09:15:57,421 - INFO - 127.0.0.1 - - [24/Sep/2024 09:15:57] "[36mGET /static/project1.js HTTP/1.1[0m" 304 -
+2024-09-24 09:15:57,426 - INFO - 127.0.0.1 - - [24/Sep/2024 09:15:57] "[36mGET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1[0m" 304 -
+2024-09-24 09:15:57,546 - INFO - 127.0.0.1 - - [24/Sep/2024 09:15:57] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-24 09:15:57,549 - INFO - 127.0.0.1 - - [24/Sep/2024 09:15:57] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-24 09:17:30,059 - INFO - 127.0.0.1 - - [24/Sep/2024 09:17:30] "GET / HTTP/1.1" 200 -
+2024-09-24 09:17:30,086 - INFO - 127.0.0.1 - - [24/Sep/2024 09:17:30] "[36mGET /static/project1.css HTTP/1.1[0m" 304 -
+2024-09-24 09:17:30,087 - INFO - 127.0.0.1 - - [24/Sep/2024 09:17:30] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-24 09:17:30,087 - INFO - 127.0.0.1 - - [24/Sep/2024 09:17:30] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+2024-09-24 09:17:30,091 - INFO - 127.0.0.1 - - [24/Sep/2024 09:17:30] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-24 09:17:30,092 - INFO - 127.0.0.1 - - [24/Sep/2024 09:17:30] "[36mGET /static/project1.js HTTP/1.1[0m" 304 -
+2024-09-24 09:17:30,095 - INFO - 127.0.0.1 - - [24/Sep/2024 09:17:30] "[36mGET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1[0m" 304 -
+2024-09-24 09:17:37,414 - INFO - 127.0.0.1 - - [24/Sep/2024 09:17:37] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-24 18:19:25,493 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-24 18:19:25,493 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-24 18:19:25,507 - INFO -  * Restarting with stat
+2024-09-24 18:19:25,805 - WARNING -  * Debugger is active!
+2024-09-24 18:19:25,823 - INFO -  * Debugger PIN: 896-094-137
+2024-09-24 18:20:20,082 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-24 18:20:20,082 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-24 18:20:20,087 - INFO -  * Restarting with stat
+2024-09-24 18:20:20,405 - WARNING -  * Debugger is active!
+2024-09-24 18:20:20,413 - INFO -  * Debugger PIN: 896-094-137
+2024-09-24 18:20:26,851 - INFO - 127.0.0.1 - - [24/Sep/2024 18:20:26] "GET / HTTP/1.1" 200 -
+2024-09-24 18:20:27,053 - INFO - 127.0.0.1 - - [24/Sep/2024 18:20:27] "[36mGET /static/project1.css HTTP/1.1[0m" 304 -
+2024-09-24 18:20:27,074 - INFO - 127.0.0.1 - - [24/Sep/2024 18:20:27] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-24 18:20:27,205 - INFO - 127.0.0.1 - - [24/Sep/2024 18:20:27] "[36mGET /static/project1.js HTTP/1.1[0m" 304 -
+2024-09-24 18:20:27,205 - INFO - 127.0.0.1 - - [24/Sep/2024 18:20:27] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+2024-09-24 18:20:27,236 - INFO - 127.0.0.1 - - [24/Sep/2024 18:20:27] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-24 18:20:27,236 - INFO - 127.0.0.1 - - [24/Sep/2024 18:20:27] "[36mGET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1[0m" 304 -
+2024-09-24 18:20:27,886 - INFO - 127.0.0.1 - - [24/Sep/2024 18:20:27] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-24 18:20:27,886 - INFO - 127.0.0.1 - - [24/Sep/2024 18:20:27] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-24 18:20:28,088 - INFO - 127.0.0.1 - - [24/Sep/2024 18:20:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-09-24 18:20:29,562 - INFO - 127.0.0.1 - - [24/Sep/2024 18:20:29] "GET / HTTP/1.1" 200 -
+2024-09-24 18:20:29,593 - INFO - 127.0.0.1 - - [24/Sep/2024 18:20:29] "[36mGET /static/project1.css HTTP/1.1[0m" 304 -
+2024-09-24 18:20:29,603 - INFO - 127.0.0.1 - - [24/Sep/2024 18:20:29] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+2024-09-24 18:20:29,603 - INFO - 127.0.0.1 - - [24/Sep/2024 18:20:29] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-24 18:20:29,603 - INFO - 127.0.0.1 - - [24/Sep/2024 18:20:29] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-24 18:20:29,603 - INFO - 127.0.0.1 - - [24/Sep/2024 18:20:29] "[36mGET /static/project1.js HTTP/1.1[0m" 304 -
+2024-09-24 18:20:29,603 - INFO - 127.0.0.1 - - [24/Sep/2024 18:20:29] "[36mGET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1[0m" 304 -
+2024-09-24 18:20:34,761 - INFO - 127.0.0.1 - - [24/Sep/2024 18:20:34] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-24 18:21:51,629 - INFO - 127.0.0.1 - - [24/Sep/2024 18:21:51] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-24 18:21:51,629 - INFO - 127.0.0.1 - - [24/Sep/2024 18:21:51] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-24 18:22:18,632 - INFO - 127.0.0.1 - - [24/Sep/2024 18:22:18] "GET / HTTP/1.1" 200 -
+2024-09-24 18:22:18,647 - INFO - 127.0.0.1 - - [24/Sep/2024 18:22:18] "[36mGET /static/project1.css HTTP/1.1[0m" 304 -
+2024-09-24 18:22:18,657 - INFO - 127.0.0.1 - - [24/Sep/2024 18:22:18] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-24 18:22:18,657 - INFO - 127.0.0.1 - - [24/Sep/2024 18:22:18] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-24 18:22:18,657 - INFO - 127.0.0.1 - - [24/Sep/2024 18:22:18] "[36mGET /static/project1.js HTTP/1.1[0m" 304 -
+2024-09-24 18:22:18,657 - INFO - 127.0.0.1 - - [24/Sep/2024 18:22:18] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+2024-09-24 18:22:18,657 - INFO - 127.0.0.1 - - [24/Sep/2024 18:22:18] "[36mGET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1[0m" 304 -
+2024-09-24 18:22:19,967 - INFO - 127.0.0.1 - - [24/Sep/2024 18:22:19] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-24 18:22:27,660 - INFO - 127.0.0.1 - - [24/Sep/2024 18:22:27] "GET / HTTP/1.1" 200 -
+2024-09-24 18:22:27,688 - INFO - 127.0.0.1 - - [24/Sep/2024 18:22:27] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-24 18:22:27,689 - INFO - 127.0.0.1 - - [24/Sep/2024 18:22:27] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-24 18:22:27,690 - INFO - 127.0.0.1 - - [24/Sep/2024 18:22:27] "[36mGET /static/project1.css HTTP/1.1[0m" 304 -
+2024-09-24 18:22:27,690 - INFO - 127.0.0.1 - - [24/Sep/2024 18:22:27] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+2024-09-24 18:22:27,693 - INFO - 127.0.0.1 - - [24/Sep/2024 18:22:27] "[36mGET /static/project1.js HTTP/1.1[0m" 304 -
+2024-09-24 18:22:27,694 - INFO - 127.0.0.1 - - [24/Sep/2024 18:22:27] "[36mGET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1[0m" 304 -
+2024-09-24 18:22:33,572 - INFO - 127.0.0.1 - - [24/Sep/2024 18:22:33] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-24 18:22:33,575 - INFO - 127.0.0.1 - - [24/Sep/2024 18:22:33] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-24 18:23:21,088 - INFO - 127.0.0.1 - - [24/Sep/2024 18:23:21] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-24 18:23:23,388 - INFO - 127.0.0.1 - - [24/Sep/2024 18:23:23] "GET / HTTP/1.1" 200 -
+2024-09-24 18:23:23,402 - INFO - 127.0.0.1 - - [24/Sep/2024 18:23:23] "[36mGET /static/project1.css HTTP/1.1[0m" 304 -
+2024-09-24 18:23:23,402 - INFO - 127.0.0.1 - - [24/Sep/2024 18:23:23] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-24 18:23:23,413 - INFO - 127.0.0.1 - - [24/Sep/2024 18:23:23] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+2024-09-24 18:23:23,413 - INFO - 127.0.0.1 - - [24/Sep/2024 18:23:23] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-24 18:23:23,413 - INFO - 127.0.0.1 - - [24/Sep/2024 18:23:23] "[36mGET /static/project1.js HTTP/1.1[0m" 304 -
+2024-09-24 18:23:23,413 - INFO - 127.0.0.1 - - [24/Sep/2024 18:23:23] "[36mGET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1[0m" 304 -
+2024-09-24 18:23:23,465 - INFO - 127.0.0.1 - - [24/Sep/2024 18:23:23] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-24 18:23:23,517 - INFO - 127.0.0.1 - - [24/Sep/2024 18:23:23] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-24 18:23:48,966 - INFO - 127.0.0.1 - - [24/Sep/2024 18:23:48] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-24 18:24:02,632 - INFO - 127.0.0.1 - - [24/Sep/2024 18:24:02] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-24 18:24:02,635 - INFO - 127.0.0.1 - - [24/Sep/2024 18:24:02] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-09-24 18:26:15,951 - INFO - 127.0.0.1 - - [24/Sep/2024 18:26:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-09-24 18:26:17,499 - INFO - 127.0.0.1 - - [24/Sep/2024 18:26:17] "[36mGET /static/project1.css HTTP/1.1[0m" 304 -
+2024-09-24 18:26:17,501 - INFO - 127.0.0.1 - - [24/Sep/2024 18:26:17] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-09-24 18:26:17,556 - INFO - 127.0.0.1 - - [24/Sep/2024 18:26:17] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+2024-09-24 18:26:17,556 - INFO - 127.0.0.1 - - [24/Sep/2024 18:26:17] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-09-24 18:26:17,565 - INFO - 127.0.0.1 - - [24/Sep/2024 18:26:17] "[36mGET /static/project1.js HTTP/1.1[0m" 304 -
+2024-09-24 18:26:17,566 - INFO - 127.0.0.1 - - [24/Sep/2024 18:26:17] "[36mGET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1[0m" 304 -
+2024-09-24 18:27:09,263 - INFO - 127.0.0.1 - - [24/Sep/2024 18:27:09] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
