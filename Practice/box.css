@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+   position: relative;
+}
+#jana{
+    top:0;
+    width: 100%;
+    background-color: sandybrown;
+    height: 15%;
+    position: absolute;
+}
+#jana1{
+    top:40%;
+    width:48%;
+    left: 1%;
+    background-color: burlywood;
+    position: absolute;
+    height: 20%;
+    border-radius:30px;
+
+}
+#jana2{
+    top:40%;
+    width:48%;
+    background-color:  burlywood;
+    position: absolute;
+    height: 20%;
+    right: 1%;
+    border-radius:30px;
+}
+#jana3{
+    bottom: 0;
+    width:100%;
+    background-color:green;
+    position: absolute;
+    height: 15%;
+}
+img{
+    position: absolute;
+    top:30%;
+    border-radius: 50%;
+    right: 20%;
+}
+#jana4{
+    position: absolute;
+    top:30%;
+    border-radius: 50%;
+    left: 20%;
+}
+
+    
