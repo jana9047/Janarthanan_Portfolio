@@ -110,7 +110,7 @@ h1 {
 h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 29px;
-  color: #372d38;
+  color: #008080;
   line-height: 57px;
   padding-bottom: 10px;
   font-weight: 400;
@@ -124,6 +124,7 @@ h3 {
   line-height: 30px;
   padding-bottom: 10px;
   font-weight: 300;
+  color: #FF8C00; 
   margin: 0px;
 }
 h4 {
@@ -133,11 +134,12 @@ h4 {
   padding-bottom: 10px;
   font-weight: 400;
   margin: 0px;
+   color: #FF6F61;
 }
 h5 {
   font-family: "Montserrat", sans-serif;
   font-size: 17px;
-  color: #372d38;
+ color: #778899; 
   line-height: 24px;
   padding-bottom: 10px;
   font-weight: 400;
@@ -164,6 +166,8 @@ h5 {
   letter-spacing: 2px;
   display: inline-block;
   position: relative;
+   color: #008080;
+;
 }
 .heading h2:after {
   content: "";
@@ -179,7 +183,7 @@ h5 {
 .heading h3 {
   font-size: 18px;
   line-height: 30px;
-  color: #5b4c5c;
+  color: #FF8C00; 
   padding-bottom: 0;
   font-weight: 300;
   text-transform: none;
@@ -235,7 +239,7 @@ header {
   letter-spacing: 4px;
 }
 .bannerText h3 {
-  color: #fff;
+  color: #FF8C00; 
   font-size: 19px;
   line-height: normal;
   font-weight: 400;
@@ -459,7 +463,7 @@ header {
 }
 .aboutus h4 {
   font-size: 16px;
-  color: #5b4c5c;
+ color: #FF6F61;
   padding-bottom: 20px;
 }
 .aboutus .btn-primary {
@@ -570,11 +574,12 @@ header {
 
 .expertiesdesc p {
   padding-bottom: 0;
+  color: #696969;
 }
 .expertiesdesc h4 {
   font-size: 20px;
   font-weight: 400;
-  color: #2C3E50;
+   color: #FF6F61;
   line-height: normal;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -587,20 +592,20 @@ header {
 .expert h4 {
   font-size: 14px;
   font-weight: 300;
-  color: #000000; /* Replace with a valid hex color code */
+   color: #FF6F61;
   line-height: normal;
   letter-spacing: 2px;
 }
 .expert h5 {
   font-family: "Crimson Text", serif;
-  color: #5b4c5c;
+ color: #778899; 
   font-size: 18px;
   font-style: italic;
   font-weight: 400;
 }
 .expertiesdesc h5 {
   font-family: "Crimson Text", serif;
-  color: #5b4c5c;
+color: #778899; 
   font-size: 18px;
   font-style: italic;
   font-weight: 400;
@@ -646,6 +651,7 @@ header {
 }
 .protfolio h4 {
   font-weight: 700;
+  color: #FF6F61;
 }
 .portfolioFilter {
   display: block;
@@ -1028,7 +1034,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
 }
 #success_page h3 {
   font-size: 17px;
-  color: #00bdbd;
+ color: #FF8C00; 
 }
 
 .contactInfo {
@@ -1219,6 +1225,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
     line-height: 71px;
   }
   .bannerText h2 {
+    color: #008080;
     font-size: 28px;
   }
   .proPic {
@@ -1243,9 +1250,11 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
   }
   #header h3 {
     font-size: 38px;
+     color: #FF8C00; 
   }
   #header h3 span {
     font-size: 16px;
+   color: #FF8C00; 
   }
 
   .abc {
@@ -1412,13 +1421,16 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
   .bannerText h3 {
     font-size: 28px;
     line-height: normal;
+    color: #FF8C00; 
   }
   .bannerText h2 {
     font-size: 18px;
     line-height: 24px;
+     color: #008080;
   }
   .aboutus h3 {
     padding-top: 20px;
+     color: #FF8C00; 
   }
   .expertiesico {
     padding: 0;
@@ -1445,6 +1457,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
   }
   .bannerText h3 {
     font-size: 20px;
+    color: #FF8C00; 
   }
   .bannerText p {
     font-size: 15px;
