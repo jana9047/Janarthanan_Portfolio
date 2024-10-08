@@ -157,9 +157,9 @@ h5 {
   padding-left: 15px;
 }
 .heading h2 {
-  font-size: 19px;
+  font-size: 25px;
   line-height: 40px;
-  font-weight: 400;
+  font-weight:600;
   margin-bottom: 20px;
   letter-spacing: 2px;
   display: inline-block;
@@ -572,9 +572,9 @@ header {
   padding-bottom: 0;
 }
 .expertiesdesc h4 {
-  font-size: 14px;
-  font-weight: 300;
-  color: #000000; /* Replace with a valid hex color code */
+  font-size: 20px;
+  font-weight: 400;
+  color: #2C3E50;
   line-height: normal;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -1089,67 +1089,92 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
 	 10. Footer Style
 ------------------------------------------------------*/
 .footer {
-  background: #fff;
+  background: #fff; /* White background for the footer */
 }
+
 .footer .container {
-  padding: 84px 0 0;
+  padding: 84px 0 0; /* Spacing around the container */
 }
 
 .footer ul {
-  margin: 0 auto;
+  margin: 0 auto; /* Centering the list */
   margin-bottom: 62px;
-  text-align: center;
-  list-style-type: none;
+  text-align: center; /* Centering text */
+  list-style-type: none; /* Removing bullet points */
 }
-.footer ul li {
-  display: inline-block;
-  text-align: center;
-  background: #bebabe;
-  color: #ffffff;
-  line-height: 55px;
-  margin: 0 17px 14px;
-  width: 55px !important;
-  height: 55px !important;
 
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
+.footer ul li {
+  display: inline-block; /* Displaying list items inline */
+  text-align: center;
+  line-height: 55px; /* Centering icons vertically */
+  margin: 0 17px 14px; /* Margins around each icon */
+  width: 55px; /* Icon container width */
+  height: 55px; /* Icon container height */
+  border-radius: 50%; /* Circular shape for icons */
 }
+
+.footer ul li.x {
+  background: #1DA1F2; /* X (formerly Twitter) color */
+}
+
+.footer ul li.facebook {
+  background: #1877F2; /* Facebook color */
+}
+
+.footer ul li.linkedin {
+  background: #0077B5; /* LinkedIn color */
+}
+
+.footer ul li.whatsapp {
+  background: #25D366; /* WhatsApp color */
+}
+
+.footer ul li.instagram {
+  background: #E1306C; /* Instagram color */
+}
+
 .footer ul li:hover {
-  background: #1d1d1d;
+  background: #1d1d1d; /* Dark background on hover */
 }
+
 .footer ul li:hover a {
-  color: #fff;
+  color: #fff; /* Icon color on hover */
 }
 
 .footer ul li a {
-  color: #fff;
-  width: 42px !important;
-  height: 42px !important;
+  color: #fff; /* Default icon color */
+  width: 42px; /* Icon width */
+  height: 42px; /* Icon height */
 }
+
 .footer ul li a i {
-  line-height: 55px !important;
-  color: #fff;
+  line-height: 55px; /* Centering the icon vertically */
+  color: #fff; /* Icon color */
 }
 
 .footer p {
-  color: #8c9099;
-  font-size: 15px;
-  line-height: 24px;
-  font-weight: 300;
-  text-align: center;
+  color: #8c9099; /* Text color for paragraphs */
+  font-size: 15px; /* Font size for paragraph text */
+  line-height: 24px; /* Line height for paragraph text */
+  font-weight: 300; /* Font weight */
+  text-align: center; /* Centering text */
 }
+
 .footer p:last-child {
-  padding-bottom: 0px;
+  padding-bottom: 0; /* No padding for the last paragraph */
 }
+
 .gototop {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  border: 2px solid #746c75;
+  display: inline-block; /* Displaying 'back to top' button inline */
+  width: 40px; /* Width of the button */
+  height: 40px; /* Height of the button */
+  border: 2px solid #746c75; /* Border style */
+  border-radius: 50%; /* Circular shape */
 }
+
 .gototop i {
-  color: #817a82;
-  line-height: 35px;
+  color: #817a82; /* Color for 'back to top' icon */
+  line-height: 35px; /* Centering the icon vertically */
 }
 
 /* Preloader */
