@@ -50,13 +50,22 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 }
-a {
-  text-decoration: none;
-  color: blue;
-  outline: none;
-}
+
 img {
   max-width: 100%;
+}
+
+
+a {
+  color: blueviolet; /* Text color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold text */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+}
+
+a:hover {
+  color: red; /* Darker background on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
 }
 
 /*----------------------------------------------------
