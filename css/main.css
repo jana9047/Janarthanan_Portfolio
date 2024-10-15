@@ -1128,37 +1128,25 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
   border-radius: 50%; /* Circular shape for icons */
 }
 
-.footer ul li.x {
-  background: #1DA1F2; /* X (formerly Twitter) color */ 
+.footer ul li a.x {
+  color: #1DA1F2; /* X (formerly Twitter) color */ 
 } 
-.footer ul li.facebook {
-  background: #1877F2; /* Facebook color */
+.footer ul li a.facebook {
+  color: #1877F2; /* Facebook color */
 }  
-.footer ul li.linkedin {
-  background: #0077B5; /* LinkedIn color */
+.footer ul li a.linkedin {
+  color: #0077B5;  /* LinkedIn color */
 } 
-.footer ul li.whatsapp {
-  background: #25D366; /* WhatsApp color */
+.footer ul li a.whatsapp {
+   color: #25D366; /* WhatsApp color */
 } 
-.footer ul li.instagram {
-  background: #E1306C; /* Instagram color */
+.footer ul li a.instagram {
+  color: #E4405F; /* Instagram color */
 }  
-.footer ul li:hover {
-  background: #1d1d1d; /* Dark background on hover */
-}
 .footer ul li:hover a {
-  color: #fff; /* Icon color on hover */
-}
-.footer ul li a {
-  color: #fff; /* Default icon color */
-  width: 42px; /* Icon width */
-  height: 42px; /* Icon height */
+  color:blue; /* Icon color on hover */
 }
 
-.footer ul li a i {
-  line-height: 55px; /* Centering the icon vertically */
-  color: #fff; /* Icon color */
-}
 
 .footer p {
   color: #8c9099; /* Text color for paragraphs */
